@@ -19,3 +19,5 @@ __pycache__/
 
 # Local scratch (never commit test artifacts)
 test_upload.mp4
+video/
+poster/
