@@ -1,0 +1,21 @@
+# OneDrive / Office temp files
+~$*
+*.tmp
+*.tmp.*
+*.onetmp*
+*.onelink*
+* - Conflict*
+* (Conflicted Copy)*
+*.conflict*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Local scratch (never commit test artifacts)
+test_upload.mp4
