@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kreslack07.github.io/krk-reviews/sitemap.xml
+Sitemap: https://krk-reviews.netlify.app/sitemap.xml
