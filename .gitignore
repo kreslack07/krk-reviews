@@ -19,7 +19,10 @@ __pycache__/
 
 # Local scratch (never commit test artifacts)
 test_upload.mp4
-video/
+
+# video/ was gitignored as scratch, but the 17 walkthrough MP4s are production
+# assets: every JSON-LD VideoObject.contentUrl points at video/{slug}.mp4.
+# Tracked 2026-08-29 (GitHub Pages canonical switch).
 
 # poster/ was gitignored as scratch, but the 17 posters are production assets:
 # every JSON-LD Product.image points at poster/{slug}.jpg. Tracked 2026-08-28.
