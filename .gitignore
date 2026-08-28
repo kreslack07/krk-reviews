@@ -20,4 +20,6 @@ __pycache__/
 # Local scratch (never commit test artifacts)
 test_upload.mp4
 video/
-poster/
+
+# poster/ was gitignored as scratch, but the 17 posters are production assets:
+# every JSON-LD Product.image points at poster/{slug}.jpg. Tracked 2026-08-28.
