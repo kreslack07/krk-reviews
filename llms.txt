@@ -2,23 +2,23 @@
 > Digital product walkthroughs and honest teardowns by KRK Digital Templates — what's inside each template, planner, and toolkit, with real pricing.
 
 ## Main sections
-- [Home](https://krk-reviews.netlify.app/): Browse all 17 digital products with walkthrough videos
+- [Home](https://kreslack07.github.io/krk-reviews/): Browse all 17 digital products with walkthrough videos
 
 ## Product pages
-- [AI Agent Toolkit](https://krk-reviews.netlify.app/ai-agent-toolkit.html): 10 AI agent templates for customer service, research, content creation, data analysis, and automation. Config files included.
-- [AI Prompt Engineering Toolkit](https://krk-reviews.netlify.app/ai-prompt-toolkit.html): 50 copy-paste AI prompts organized into 5 high-impact categories: Marketing, Sales, Operations, Finance, and HR. Perfect for entrepreneurs, marketers, consultan
-- [Business Plan Template Pro](https://krk-reviews.netlify.app/business-plan-template-pro.html): 7-section business plan template with financial projections, market analysis, and executive summary guides.
-- [Copywriting Swipe File](https://krk-reviews.netlify.app/copywriting-swipe-file.html): 20 proven copy templates for headlines, emails, landing pages, ads, and sales pages. Ready to customize.
-- [Email Marketing Swipe File](https://krk-reviews.netlify.app/email-swipe.html): 20 proven email templates for launches, nurturing, and sales. Copy-paste ready. Includes: launch sequence (5 emails), nurture sequence (7 emails), cart abandonm
-- [AI Prompt Swipe File for Marketers](https://krk-reviews.netlify.app/krk-ai-prompts-marketing.html): 50+ high-converting AI prompts for marketing, sales, and content creation. Includes 5 'power prompts' for each category.
-- [Business Plan Template Pack](https://krk-reviews.netlify.app/krk-business-plan-templates.html): 10+ customizable business plan templates for startups, investors, and SBA loans. Includes financial projections and pitch deck templates.
-- [Cold Email Template Pack](https://krk-reviews.netlify.app/krk-cold-email-templates.html): 50+ proven cold email templates for outreach, sales, and partnerships. Includes follow-up sequences and discovery call scripts.
-- [Freelancer Starter Kit](https://krk-reviews.netlify.app/krk-freelancer-starter-kit-2.html): Everything a freelancer needs to launch and manage a successful business. Includes client tracker, invoice generator, project management board, contract templat
-- [habbit tracker](https://krk-reviews.netlify.app/krk-habit-tracker.html): Build life-changing habits with this beautiful Notion habit tracker. Track daily routines, streaks, and progress with visual dashboards. Includes 12 habit slots
-- [PERSONAL FINANCE TRACKER](https://krk-reviews.netlify.app/krk-personal-finance-tracker.html): Take control of your money with this comprehensive Notion personal finance dashboard. Track income, expenses, savings goals, debt payoff, and investments. Inclu
-- [SOCIAL MEDIA CONTENT CALENDAR](https://krk-reviews.netlify.app/krk-social-media-content-calendar.html): 12-month social media content calendar template for Canva and Notion. Plan posts, track engagement, and schedule content across Instagram, Twitter/X, LinkedIn, 
-- [SOP Template Pack](https://krk-reviews.netlify.app/krk-sop-templates.html): Standard Operating Procedure templates for customer onboarding, content publishing, sales calls, expenses, and support tickets.
-- [STUDENT PRODUCTIVITY SYSTEM](https://krk-reviews.netlify.app/krk-student-productivity-system.html): A complete Notion template system for students to track assignments, deadlines, and study schedules. Includes habit tracker, grade calculator, exam planner, and
-- [No-Code Automation Playbook](https://krk-reviews.netlify.app/no-code-automation-playbook.html): Comprehensive guide to automating business workflows with Zapier, Make, and n8n. Step-by-step tutorials and troubleshooting.
-- [Pitch Deck Template Kit](https://krk-reviews.netlify.app/pitch-deck-template-kit.html): 10-slide pitch deck template with guidance for each slide, designed for startups seeking funding.
-- [SEO Content Calendar Template](https://krk-reviews.netlify.app/seo-content-calendar.html): 12-month SEO content calendar with keyword tracking, content templates, and performance metrics.
+- [AI Agent Toolkit](https://kreslack07.github.io/krk-reviews/ai-agent-toolkit.html): 10 AI agent templates for customer service, research, content creation, data analysis, and automation. Config files included.
+- [AI Prompt Engineering Toolkit](https://kreslack07.github.io/krk-reviews/ai-prompt-toolkit.html): 50 copy-paste AI prompts organized into 5 high-impact categories: Marketing, Sales, Operations, Finance, and HR. Perfect for entrepreneurs, marketers, consultan
+- [Business Plan Template Pro](https://kreslack07.github.io/krk-reviews/business-plan-template-pro.html): 7-section business plan template with financial projections, market analysis, and executive summary guides.
+- [Copywriting Swipe File](https://kreslack07.github.io/krk-reviews/copywriting-swipe-file.html): 20 proven copy templates for headlines, emails, landing pages, ads, and sales pages. Ready to customize.
+- [Email Marketing Swipe File](https://kreslack07.github.io/krk-reviews/email-swipe.html): 20 proven email templates for launches, nurturing, and sales. Copy-paste ready. Includes: launch sequence (5 emails), nurture sequence (7 emails), cart abandonm
+- [AI Prompt Swipe File for Marketers](https://kreslack07.github.io/krk-reviews/krk-ai-prompts-marketing.html): 50+ high-converting AI prompts for marketing, sales, and content creation. Includes 5 'power prompts' for each category.
+- [Business Plan Template Pack](https://kreslack07.github.io/krk-reviews/krk-business-plan-templates.html): 10+ customizable business plan templates for startups, investors, and SBA loans. Includes financial projections and pitch deck templates.
+- [Cold Email Template Pack](https://kreslack07.github.io/krk-reviews/krk-cold-email-templates.html): 50+ proven cold email templates for outreach, sales, and partnerships. Includes follow-up sequences and discovery call scripts.
+- [Freelancer Starter Kit](https://kreslack07.github.io/krk-reviews/krk-freelancer-starter-kit-2.html): Everything a freelancer needs to launch and manage a successful business. Includes client tracker, invoice generator, project management board, contract templat
+- [habbit tracker](https://kreslack07.github.io/krk-reviews/krk-habit-tracker.html): Build life-changing habits with this beautiful Notion habit tracker. Track daily routines, streaks, and progress with visual dashboards. Includes 12 habit slots
+- [PERSONAL FINANCE TRACKER](https://kreslack07.github.io/krk-reviews/krk-personal-finance-tracker.html): Take control of your money with this comprehensive Notion personal finance dashboard. Track income, expenses, savings goals, debt payoff, and investments. Inclu
+- [SOCIAL MEDIA CONTENT CALENDAR](https://kreslack07.github.io/krk-reviews/krk-social-media-content-calendar.html): 12-month social media content calendar template for Canva and Notion. Plan posts, track engagement, and schedule content across Instagram, Twitter/X, LinkedIn, 
+- [SOP Template Pack](https://kreslack07.github.io/krk-reviews/krk-sop-templates.html): Standard Operating Procedure templates for customer onboarding, content publishing, sales calls, expenses, and support tickets.
+- [STUDENT PRODUCTIVITY SYSTEM](https://kreslack07.github.io/krk-reviews/krk-student-productivity-system.html): A complete Notion template system for students to track assignments, deadlines, and study schedules. Includes habit tracker, grade calculator, exam planner, and
+- [No-Code Automation Playbook](https://kreslack07.github.io/krk-reviews/no-code-automation-playbook.html): Comprehensive guide to automating business workflows with Zapier, Make, and n8n. Step-by-step tutorials and troubleshooting.
+- [Pitch Deck Template Kit](https://kreslack07.github.io/krk-reviews/pitch-deck-template-kit.html): 10-slide pitch deck template with guidance for each slide, designed for startups seeking funding.
+- [SEO Content Calendar Template](https://kreslack07.github.io/krk-reviews/seo-content-calendar.html): 12-month SEO content calendar with keyword tracking, content templates, and performance metrics.
