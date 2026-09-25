@@ -1,209 +1,59 @@
-# 🚀 KRK Reviews - GitHub Pages Affiliate Site
+# KRK Digital Products — live storefront
 
-**Generated:** 2026-08-12 12:47  
-**Time Required:** 45 minutes  
-**Cost:** 100% Free  
-**Expected Monthly Revenue:** $100-$1,000 (affiliate commissions)
+**Catalogue verified live: 25 September 2026.** Every checkout link below was
+probed and returned **HTTP 200**, with the AUD price shown matching the live
+checkout amount exactly.
 
----
+**→ Shop the full catalogue: https://kreslack07.github.io/krk-reviews/**
 
-## ✅ STEP 1: CREATE GITHUB ACCOUNT (5 min)
+27 digital products by KRK Digital Templates (Australian sole trader,
+ABN 71 770 320 895). 21 of them are available for instant checkout right now:
+17 on Gumroad, 4 on Stripe.
 
-1. Go to: https://github.com
-2. Click **"Sign up"**
-3. Username: `kreslack07` (or available alternative)
-4. Email: kreslack07@gmail.com
-5. Password: (use your existing)
-6. Verify email
+## Buy now — card checkout (Stripe)
 
----
+| Product | Price (AUD) | Checkout |
+|---|---|---|
+| KRK Printable Wall Art Vol 1 — 2 artworks, 5 print-ready sizes | A$15.00 | https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03 |
+| Website Audit Report | A$49.00 | https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02 |
+| Podcast Transcription & Show Notes | A$35.00 | https://buy.stripe.com/9B6bJ1ew62QN7QbgB267S04 |
+| B2B Lead Database Starter Pack | A$49.00 | https://buy.stripe.com/9B628rds2fDz1rNckM67S05 |
 
-## ✅ STEP 2: CREATE REPOSITORY (5 min)
+## Buy now — instant download (Gumroad)
 
-1. Click **"+"** → **"New repository"**
-2. Repository name: `krk-reviews`
-3. Description: "Honest reviews of AI tools and business templates"
-4. Visibility: **Public**
-5. ✅ Check **"Add a README file"**
-6. Click **"Create repository"**
+| Product | Price (AUD) | Checkout |
+|---|---|---|
+| AI Strategy Template Suite | A$49.00 | https://kreslack2.gumroad.com/l/krk-ai-strategy-templates |
+| 30-Day Skincare Influencer Toolkit — Calendar + 100 Hooks | A$39.00 | https://kreslack2.gumroad.com/l/cggdsg |
+| Glow Up Skincare Influencer Toolkit | A$39.00 | https://kreslack2.gumroad.com/l/hldbzhx |
+| AI Prompt Swipe File for Marketers | A$39.00 | https://kreslack2.gumroad.com/l/krk-ai-prompts-marketing |
+| Email Marketing Swipe File | A$34.00 | https://kreslack2.gumroad.com/l/email-swipe |
+| Landing Page Template Bundle | A$31.00 | https://kreslack2.gumroad.com/l/krk-landing-page-templates |
+| Business Plan Template Pack | A$29.00 | https://kreslack2.gumroad.com/l/krk-business-plan-templates |
+| AI Prompt Engineering Toolkit | USD $27.00 | https://kreslack2.gumroad.com/l/ai-prompt-toolkit |
+| Dark Psychology Decoded — Manipulation Defense Toolkit | A$27.00 | https://kreslack2.gumroad.com/l/bavrw |
+| Automation Audit Checklist | A$24.00 | https://kreslack2.gumroad.com/l/krk-automation-audit-checklist |
+| Cold Email Template Pack | A$24.00 | https://kreslack2.gumroad.com/l/krk-cold-email-templates |
+| Notion Business OS Template | A$24.00 | https://kreslack2.gumroad.com/l/krk-notion-business-os |
+| Stoic Wisdom Journal — 90 Daily Prompts | A$19.00 | https://kreslack2.gumroad.com/l/gyjef |
+| SOP Template Pack | A$19.00 | https://kreslack2.gumroad.com/l/krk-sop-templates |
+| KRK Thumbnail Pack Vol 1 — faceless channel CTR pack | A$19.00 | https://kreslack2.gumroad.com/l/krk-thumbnail-pack-vol1 |
+| KRK Dark Psychology Decoded — Anki flashcards, 30 cards | A$17.00 | https://kreslack2.gumroad.com/l/krk-dark-psychology-flashcards |
+| KRK Zen Garden Adult Coloring Pack Vol 1 — 5 designs | A$12.00 | https://kreslack2.gumroad.com/l/krk-zen-garden-coloring-vol1 |
 
----
+Full shop, with what is inside each product: **https://kreslack07.github.io/krk-reviews/**
 
-## ✅ STEP 3: UPLOAD SITE FILES (10 min)
+## Verified how
 
-### **Option A: GitHub Web Interface (Easiest)**
+- Live GET of every checkout URL in the catalogue page, reading
+  `og:url` + `product:price:amount` / `product:price:currency` from the
+  rendered checkout, then comparing against the price displayed on the page.
+- Stripe amounts read back from the Stripe API (`payment_links` + `line_items`),
+  all `active: true`, currency `aud`.
+- 21 / 21 checkouts returned HTTP 200. 17 / 17 Gumroad prices matched exactly.
+  4 / 4 Stripe amounts matched exactly. Zero mismatches.
 
-1. In your new repo, click **"Add file"** → **"Upload files"**
-2. Drag and drop:
-   - `index.html`
-3. Commit message: "Initial commit - affiliate review site"
-4. Click **"Commit changes"**
+## Affiliate
 
-### **Option B: Git Command Line**
-
-```bash
-cd C:\Users\kresl\OneDrive\Desktop\GITHUB_AFFILIATE_SITE
-git init
-git remote add origin https://github.com/kreslack07/krk-reviews.git
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git push -u origin main
-```
-
----
-
-## ✅ STEP 4: ENABLE GITHUB PAGES (5 min)
-
-1. Go to your repo on GitHub
-2. Click **"Settings"** tab
-3. Click **"Pages"** in left sidebar
-4. Under "Source", select:
-   - Branch: **main**
-   - Folder: **/ (root)**
-5. Click **"Save"**
-6. Wait 2-3 minutes for deployment
-
-Your site will be live at:
-`https://kreslack07.github.io/krk-reviews/`
-
----
-
-## ✅ STEP 5: ADD GOOGLE ANALYTICS (10 min)
-
-1. Go to: https://analytics.google.com
-2. Sign in with kreslack07@gmail.com
-3. Click **"Admin"** → **"Create Property"**
-4. Property name: "KRK Reviews"
-5. Get your **Measurement ID** (starts with `G-`)
-6. Add to `index.html` before `</head>`:
-
-```html
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
-```
-
-7. Commit and push changes
-
----
-
-## ✅ STEP 6: CUSTOM DOMAIN (OPTIONAL - 10 min)
-
-### **If you want a custom domain (e.g., reviews.krk-digital.com):**
-
-1. Buy domain from Namecheap/Cloudflare (~$10/year)
-2. In GitHub repo → Settings → Pages → Custom domain
-3. Enter: `reviews.krk-digital.com`
-4. In Cloudflare DNS, add:
-   - Type: `CNAME`
-   - Name: `reviews`
-   - Value: `kreslack07.github.io`
-5. Wait 24 hours for DNS propagation
-
----
-
-## 📊 EXPECTED RESULTS
-
-| Metric | Month 1 | Month 3 | Month 6 |
-|--------|---------|---------|---------|
-| **Monthly Visitors** | 50 | 500 | 2,000 |
-| **Click-Through Rate** | 5% | 8% | 10% |
-| **Affiliate Clicks** | 3 | 40 | 200 |
-| **Conversion Rate** | 2% | 3% | 4% |
-| **Sales/Month** | 0-1 | 1-4 | 8-20 |
-| **Avg Commission** | $5 | $7 | $10 |
-| **Monthly Revenue** | $0-$5 | $10-$50 | $100-$300 |
-
-**Note:** SEO takes 3-6 months to gain traction, but then provides FREE passive traffic for years.
-
----
-
-## 🎯 SEO OPTIMIZATION
-
-### **Keywords to Target:**
-
-1. "best business templates 2026"
-2. "notion template for business"
-3. "cold email templates that work"
-4. "ai strategy template"
-5. "saas boilerplate"
-6. "marketing campaign templates"
-7. "sop template pack"
-8. "digital products to buy"
-
-### **Add These to Your Content:**
-
-- Use keywords in page titles
-- Add keywords to image alt text
-- Create blog posts targeting each keyword
-- Build backlinks from Reddit, Quora, forums
-
----
-
-## 🚀 PROMOTION STRATEGY
-
-### **Week 1-2: Initial Launch**
-- Share on Twitter/X
-- Post to LinkedIn
-- Share in relevant Facebook groups
-- Add to email signature
-
-### **Week 3-4: Content Marketing**
-- Write 5 blog posts (one per product)
-- Share on Medium
-- Post to Reddit (r/entrepreneur, r/sideproject)
-- Answer Quora questions with links
-
-### **Month 2-3: SEO**
-- Target long-tail keywords
-- Build backlinks
-- Guest post on relevant blogs
-- Create YouTube videos linking to site
-
----
-
-## ✅ CHECKLIST
-
-- [ ] GitHub account created
-- [ ] Repository created (`krk-reviews`)
-- [ ] Files uploaded (index.html)
-- [ ] GitHub Pages enabled
-- [ ] Site live at: https://kreslack07.github.io/krk-reviews/
-- [ ] Google Analytics added
-- [ ] Custom domain configured (optional)
-- [ ] Site shared on social media
-- [ ] First blog post written
-- [ ] First 5 backlinks built
-
----
-
-## 🎉 YOU'RE DONE!
-
-**Time spent:** 45 minutes  
-**Cost:** $0 (free GitHub Pages hosting)  
-**Expected monthly revenue (Month 6):** $100-$300  
-**Expected monthly visitors (Month 6):** 2,000+
-
-**This site will run FOREVER for free**, driving passive affiliate traffic while you sleep.
-
----
-
-## 📁 FILES INCLUDED
-
-- ✅ `index.html` - Complete affiliate review site (6 products featured)
-- ✅ `README.md` - This deployment guide
-
-**Next:** Add more products, write blog posts, build backlinks!
-
----
-
-**Live Site URL:** https://kreslack07.github.io/krk-reviews/
-
-**Affiliate Links:** All links use your Gumroad affiliate program (30% commission on all sales)
-
+30% affiliate commission on every product. Ask for a link:
+kreslackfrew@gmail.com
