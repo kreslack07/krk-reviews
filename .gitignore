@@ -29,3 +29,10 @@ test_upload.mp4
 
 # pre-edit backups (never commit)
 *.pre_*
+
+# PAID ARTIFACTS — NEVER COMMIT. Public deployment = revenue leak.
+# These were served at https://kreslack07.github.io/krk-reviews/gumroad-deliverables/*.zip
+# with HTTP 200 + valid PK\x03\x04 ZIP magic, downloadable by anyone with no purchase.
+# Canonical copies live in AppData\Local\hermes\autonomous\deliverables\<slug>\<slug>.zip
+gumroad-deliverables/*.zip
+*.bak
