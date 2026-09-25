@@ -1,8 +1,8 @@
 # KRK Digital Products
-> 18 instant-download digital products by KRK Digital Templates - business, AI, productivity and creator toolkits. Delivered by Gumroad, priced in AUD.
+> 27 digital products by KRK Digital Templates - business, AI, productivity and creator toolkits. 21 have instant checkout (17 on Gumroad, 4 on Stripe), priced in AUD. Catalogue verified live 2026-09-25.
 
 ## Store
-- [Full catalogue](https://kreslack07.github.io/krk-reviews/): All 18 products with what's inside each one and current AUD pricing.
+- [Full catalogue](https://kreslack07.github.io/krk-reviews/): All 27 products with what's inside each one and current AUD pricing.
 - [Gumroad store](https://kreslack2.gumroad.com): Direct checkout for every product.
 
 ## Products (live, verified)
@@ -22,5 +22,5 @@
 - [SOP Template Pack](https://kreslack2.gumroad.com/l/krk-sop-templates): A$19.00 AUD. Instant download via Gumroad.
 - [KRK Thumbnail Pack Vol 1 - Faceless Channel CTR Pack](https://kreslack2.gumroad.com/l/krk-thumbnail-pack-vol1): A$19.00 AUD. Instant download via Gumroad.
 - [KRK Dark Psychology Decoded - Manipulation Defense Flashcards (Anki, 30 Cards)](https://kreslack2.gumroad.com/l/krk-dark-psychology-flashcards): A$17.00 AUD. Instant download via Gumroad.
-- [KRK Printable Wall Art Vol 1 - 2 Artworks, 5 Print-Ready Sizes](https://kreslack2.gumroad.com/l/krk-printable-wall-art-vol1): A$15.00 AUD. Instant download via Gumroad.
+- [KRK Printable Wall Art Vol 1 - 2 Artworks, 5 Print-Ready Sizes](https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03): A$15.00 AUD. Stripe card checkout, instant download link emailed on payment.
 - [KRK Zen Garden Adult Coloring Pack Vol 1 - 5 Printable Designs](https://kreslack2.gumroad.com/l/krk-zen-garden-coloring-vol1): A$12.00 AUD. Instant download via Gumroad.
