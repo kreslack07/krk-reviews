@@ -26,3 +26,6 @@ test_upload.mp4
 
 # poster/ was gitignored as scratch, but the 17 posters are production assets:
 # every JSON-LD Product.image points at poster/{slug}.jpg. Tracked 2026-08-28.
+
+# pre-edit backups (never commit)
+*.pre_*
