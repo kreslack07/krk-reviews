@@ -1,14 +1,14 @@
 # KRK Digital Products — live storefront
 
-**Catalogue verified live: 25 September 2026.** Every checkout link below was
-probed and returned **HTTP 200**, with the AUD price shown matching the live
+**Catalogue re-verified live: 25 September 2026.** Every checkout link below was
+probed again and returned **HTTP 200**, with the AUD price shown matching the live
 checkout amount exactly.
 
 **→ Shop the full catalogue: https://kreslack07.github.io/krk-reviews/**
 
-27 digital products by KRK Digital Templates (Australian sole trader,
-ABN 71 770 320 895). 21 of them are available for instant checkout right now:
-17 on Gumroad, 4 on Stripe.
+28 digital products by KRK Digital Templates (Australian sole trader,
+ABN 71 770 320 895). 22 of them are available for instant checkout right now:
+17 on Gumroad, 5 on Stripe.
 
 ## Buy now — card checkout (Stripe)
 
@@ -17,7 +17,8 @@ ABN 71 770 320 895). 21 of them are available for instant checkout right now:
 | KRK Printable Wall Art Vol 1 — 2 artworks, 5 print-ready sizes | A$15.00 | https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03 |
 | Website Audit Report | A$49.00 | https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02 |
 | Podcast Transcription & Show Notes | A$35.00 | https://buy.stripe.com/9B6bJ1ew62QN7QbgB267S04 |
-| B2B Lead Database Starter Pack | A$49.00 | https://buy.stripe.com/9B628rds2fDz1rNckM67S05 |
+| B2B Lead Database Starter Pack — real records, CSV + XLSX + verify README | A$49.00 | https://buy.stripe.com/9B628rds2fDz1rNckM67S05 |
+| KRK Micro-SaaS Starter Kit — generated, self-tested scaffold + spec + runbook | A$29.00 | https://buy.stripe.com/cNi6oHew60IF9Yj84w67S06 |
 
 ## Buy now — instant download (Gumroad)
 
@@ -50,8 +51,9 @@ Full shop, with what is inside each product: **https://kreslack07.github.io/krk-
   rendered checkout, then comparing against the price displayed on the page.
 - Stripe amounts read back from the Stripe API (`payment_links` + `line_items`),
   all `active: true`, currency `aud`.
-- 21 / 21 checkouts returned HTTP 200. 17 / 17 Gumroad prices matched exactly.
-  4 / 4 Stripe amounts matched exactly. Zero mismatches.
+- 22 / 22 checkouts returned HTTP 200. 17 / 17 Gumroad prices matched exactly.
+  5 / 5 Stripe payment links read from the API are `active: true`, currency `aud`,
+  amounts A$15 / A$29 / A$35 / A$49 / A$49. Zero mismatches.
 
 ## Affiliate
 

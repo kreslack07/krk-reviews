@@ -1,8 +1,8 @@
 # KRK Digital Products
-> 27 digital products by KRK Digital Templates - business, AI, productivity and creator toolkits. 21 have instant checkout (17 on Gumroad, 4 on Stripe), priced in AUD. Catalogue verified live 2026-09-25.
+> 28 digital products by KRK Digital Templates - business, AI, productivity and creator toolkits. 22 have instant checkout (17 on Gumroad, 5 on Stripe), priced in AUD. Catalogue re-probed live 2026-09-25 (22/22 HTTP 200).
 
 ## Store
-- [Full catalogue](https://kreslack07.github.io/krk-reviews/): All 27 products with what's inside each one and current AUD pricing.
+- [Full catalogue](https://kreslack07.github.io/krk-reviews/): All 28 products with what's inside each one and current AUD pricing.
 - [Gumroad store](https://kreslack2.gumroad.com): Direct checkout for every product.
 
 ## Products (live, verified)
@@ -23,4 +23,8 @@
 - [KRK Thumbnail Pack Vol 1 - Faceless Channel CTR Pack](https://kreslack2.gumroad.com/l/krk-thumbnail-pack-vol1): A$19.00 AUD. Instant download via Gumroad.
 - [KRK Dark Psychology Decoded - Manipulation Defense Flashcards (Anki, 30 Cards)](https://kreslack2.gumroad.com/l/krk-dark-psychology-flashcards): A$17.00 AUD. Instant download via Gumroad.
 - [KRK Printable Wall Art Vol 1 - 2 Artworks, 5 Print-Ready Sizes](https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03): A$15.00 AUD. Stripe card checkout, instant download link emailed on payment.
+- [Website Audit Report - one page, technical + on-page, prioritised fix list](https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02): A$49.00 AUD. Stripe card checkout, PDF emailed within 24 hours.
+- [Podcast Transcription & Show Notes - transcript, show notes, chapter markers](https://buy.stripe.com/9B6bJ1ew62QN7QbgB267S04): A$35.00 AUD. Stripe card checkout, emailed within 24 hours.
+- [B2B Lead Database Starter Pack - real business records for your niche + region](https://buy.stripe.com/9B628rds2fDz1rNckM67S05): A$49.00 AUD. Stripe card checkout. CSV + XLSX + how-to-verify README sourced from OpenStreetMap (ODbL), emailed within 24 hours.
+- [KRK Micro-SaaS Starter Kit - generated, self-tested code scaffold + spec + deployment runbook](https://buy.stripe.com/cNi6oHew60IF9Yj84w67S06): A$29.00 AUD. Stripe card checkout. Built from the goal you describe at checkout, emailed as a .zip within 24 hours.
 - [KRK Zen Garden Adult Coloring Pack Vol 1 - 5 Printable Designs](https://kreslack2.gumroad.com/l/krk-zen-garden-coloring-vol1): A$12.00 AUD. Instant download via Gumroad.
