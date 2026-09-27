@@ -1,30 +1,26 @@
-# KRK Digital Products
-> 28 digital products by KRK Digital Templates - business, AI, productivity and creator toolkits. 22 have instant checkout (17 on Gumroad, 5 on Stripe), priced in AUD. Catalogue re-probed live 2026-09-25 (22/22 HTTP 200).
+# KRK Digital Templates
+> Digital product walkthroughs and honest teardowns by KRK Digital Templates — what's inside each template, planner, and toolkit, with real pricing.
 
-## Store
-- [Full catalogue](https://kreslack07.github.io/krk-reviews/): All 28 products with what's inside each one and current AUD pricing.
-- [Gumroad store](https://kreslack2.gumroad.com): Direct checkout for every product.
+## Main sections
+- [Home](https://kreslack07.github.io/krk-reviews/): Browse all 24 digital products with walkthrough videos
 
-## Products (live, verified)
-- [AI Strategy Template Suite](https://kreslack2.gumroad.com/l/krk-ai-strategy-templates): A$49.00 AUD. Instant download via Gumroad.
-- [30-Day Skincare Influencer Toolkit - Calendar + 100 Hooks](https://kreslack2.gumroad.com/l/cggdsg): A$39.00 AUD. Instant download via Gumroad.
-- [Glow Up Skincare Influencer Toolkit](https://kreslack2.gumroad.com/l/hldbzhx): A$39.00 AUD. Instant download via Gumroad.
-- [AI Prompt Swipe File for Marketers](https://kreslack2.gumroad.com/l/krk-ai-prompts-marketing): A$39.00 AUD. Instant download via Gumroad.
-- [Email Marketing Swipe File](https://kreslack2.gumroad.com/l/email-swipe): A$34.00 AUD. Instant download via Gumroad.
-- [Landing Page Template Bundle](https://kreslack2.gumroad.com/l/krk-landing-page-templates): A$31.00 AUD. Instant download via Gumroad.
-- [Business Plan Template Pack](https://kreslack2.gumroad.com/l/krk-business-plan-templates): A$29.00 AUD. Instant download via Gumroad.
-- [AI Prompt Engineering Toolkit](https://kreslack2.gumroad.com/l/ai-prompt-toolkit): A$27.00 AUD. Instant download via Gumroad.
-- [Dark Psychology Decoded - Manipulation Defense Toolkit](https://kreslack2.gumroad.com/l/bavrw): A$27.00 AUD. Instant download via Gumroad.
-- [Automation Audit Checklist](https://kreslack2.gumroad.com/l/krk-automation-audit-checklist): A$24.00 AUD. Instant download via Gumroad.
-- [Cold Email Template Pack](https://kreslack2.gumroad.com/l/krk-cold-email-templates): A$24.00 AUD. Instant download via Gumroad.
-- [Notion Business OS Template](https://kreslack2.gumroad.com/l/krk-notion-business-os): A$24.00 AUD. Instant download via Gumroad.
-- [Stoic Wisdom Journal - 90 Daily Prompts](https://kreslack2.gumroad.com/l/gyjef): A$19.00 AUD. Instant download via Gumroad.
-- [SOP Template Pack](https://kreslack2.gumroad.com/l/krk-sop-templates): A$19.00 AUD. Instant download via Gumroad.
-- [KRK Thumbnail Pack Vol 1 - Faceless Channel CTR Pack](https://kreslack2.gumroad.com/l/krk-thumbnail-pack-vol1): A$19.00 AUD. Instant download via Gumroad.
-- [KRK Dark Psychology Decoded - Manipulation Defense Flashcards (Anki, 30 Cards)](https://kreslack2.gumroad.com/l/krk-dark-psychology-flashcards): A$17.00 AUD. Instant download via Gumroad.
-- [KRK Printable Wall Art Vol 1 - 2 Artworks, 5 Print-Ready Sizes](https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03): A$15.00 AUD. Stripe card checkout, instant download link emailed on payment.
-- [Website Audit Report - one page, technical + on-page, prioritised fix list](https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02): A$49.00 AUD. Stripe card checkout, PDF emailed within 24 hours.
-- [Podcast Transcription & Show Notes - transcript, show notes, chapter markers](https://buy.stripe.com/9B6bJ1ew62QN7QbgB267S04): A$35.00 AUD. Stripe card checkout, emailed within 24 hours.
-- [B2B Lead Database Starter Pack - real business records for your niche + region](https://buy.stripe.com/9B628rds2fDz1rNckM67S05): A$49.00 AUD. Stripe card checkout. CSV + XLSX + how-to-verify README sourced from OpenStreetMap (ODbL), emailed within 24 hours.
-- [KRK Micro-SaaS Starter Kit - generated, self-tested code scaffold + spec + deployment runbook](https://buy.stripe.com/cNi6oHew60IF9Yj84w67S06): A$29.00 AUD. Stripe card checkout. Built from the goal you describe at checkout, emailed as a .zip within 24 hours.
-- [KRK Zen Garden Adult Coloring Pack Vol 1 - 5 Printable Designs](https://kreslack2.gumroad.com/l/krk-zen-garden-coloring-vol1): A$12.00 AUD. Instant download via Gumroad.
+## Product pages
+- [AI Agent Toolkit](https://kreslack07.github.io/krk-reviews/ai-agent-toolkit.html): 10 AI agent templates for customer service, research, content creation, data analysis, and automation. Config files included.
+- [AI Prompt Engineering Toolkit](https://kreslack07.github.io/krk-reviews/ai-prompt-toolkit.html): 50 copy-paste AI prompts organized into 5 high-impact categories: Marketing, Sales, Operations, Finance, and HR. Perfect for entrepreneurs, marketers, consultan
+- [Dark Psychology Decoded - Manipulation Defense Toolkit](https://kreslack07.github.io/krk-reviews/bavrw.html): Recognize manipulation before it costs you. This educational toolkit breaks down 10 common manipulation tactics — love bombing, gaslighting, guilt-tripping, tri
+- [Business Plan Template Pro](https://kreslack07.github.io/krk-reviews/business-plan-template-pro.html): 7-section business plan template with financial projections, market analysis, and executive summary guides.
+- [30-Day Skincare Influencer Toolkit - Calendar + 100 Hooks](https://kreslack07.github.io/krk-reviews/cggdsg.html): Launch a skincare channel with zero guesswork. Inside this toolkit: - A complete 30-day content calendar — one ready-to-film idea per day, in the right order - 
+- [Copywriting Swipe File](https://kreslack07.github.io/krk-reviews/copywriting-swipe-file.html): 20 proven copy templates for headlines, emails, landing pages, ads, and sales pages. Ready to customize.
+- [Email Marketing Swipe File](https://kreslack07.github.io/krk-reviews/email-swipe.html): 20 proven email templates for launches, nurturing, and sales. Copy-paste ready. Includes: launch sequence (5 emails), nurture sequence (7 emails), cart abandonm
+- [Stoic Wisdom Journal - 90 Daily Prompts](https://kreslack07.github.io/krk-reviews/gyjef.html): 90 days of reflection, one prompt at a time. Twelve Stoic themes — perception, action, acceptance, mortality, character, relationships, adversity, ambition, ang
+- [Glow Up Skincare Influencer Toolkit](https://kreslack07.github.io/krk-reviews/hldbzhx.html): Everything you need to grow a skincare account that converts. Inside: - 8 content pillars to keep your feed focused - 3 routine templates (beginner, core, advan
+- [AI Prompt Swipe File for Marketers](https://kreslack07.github.io/krk-reviews/krk-ai-prompts-marketing.html): 50+ high-converting AI prompts for marketing, sales, and content creation. Includes 5 'power prompts' for each category.
+- [Business Plan Template Pack](https://kreslack07.github.io/krk-reviews/krk-business-plan-templates.html): 10+ customizable business plan templates for startups, investors, and SBA loans. Includes financial projections and pitch deck templates.
+- [Cold Email Template Pack](https://kreslack07.github.io/krk-reviews/krk-cold-email-templates.html): 50+ proven cold email templates for outreach, sales, and partnerships. Includes follow-up sequences and discovery call scripts.
+- [KRK Printable Wall Art Vol 1 - 2 Artworks, 5 Print-Ready Sizes](https://kreslack07.github.io/krk-reviews/krk-printable-wall-art-vol1.html): Two original abstract artworks, each in 5 print-ready sizes. WHAT'S INSIDE - 10 JPG FILES Aurora Flow 8x8in, 12x12in, 16x16in, 20x20in, 24x24in Summit Dusk 8x8i
+- [SOP Template Pack](https://kreslack07.github.io/krk-reviews/krk-sop-templates.html): Standard Operating Procedure templates for customer onboarding, content publishing, sales calls, expenses, and support tickets.
+- [KRK Thumbnail Pack Vol 1 - Faceless Channel CTR Pack](https://kreslack07.github.io/krk-reviews/krk-thumbnail-pack-vol1.html): 10 YouTube thumbnails for faceless channels, ready to upload. WHAT'S INSIDE - 5 ready thumbnails (1280x720) with hook text already baked in - use as-is - 5 clea
+- [KRK Zen Garden Adult Coloring Pack Vol 1 - 5 Printable Designs](https://kreslack07.github.io/krk-reviews/krk-zen-garden-coloring-vol1.html): 5 original zen garden colouring pages, ready to print on A4. WHAT'S INSIDE - A 7-page A4 PDF: cover, 5 designs, printing + licence page - The 5 designs as indiv
+- [No-Code Automation Playbook](https://kreslack07.github.io/krk-reviews/no-code-automation-playbook.html): Comprehensive guide to automating business workflows with Zapier, Make, and n8n. Step-by-step tutorials and troubleshooting.
+- [Pitch Deck Template Kit](https://kreslack07.github.io/krk-reviews/pitch-deck-template-kit.html): 10-slide pitch deck template with guidance for each slide, designed for startups seeking funding.
+- [SEO Content Calendar Template](https://kreslack07.github.io/krk-reviews/seo-content-calendar.html): 12-month SEO content calendar with keyword tracking, content templates, and performance metrics.
