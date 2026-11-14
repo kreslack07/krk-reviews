@@ -165,10 +165,15 @@
         <div class="mailchimp-box">
             <h3>🎁 Get the FREE Digital Products Launch Checklist</h3>
             <p>Join the KRK Digital community for weekly templates and strategies.</p>
-            <form action="https://gumroad.us22.list-manage.com/subscribe/post?u=65a29cd0265859b455920bb9c&id=16c0432dcb" method="post" target="_blank">
-                <input type="email" name="EMAIL" placeholder="Enter your email" required>
-                <button type="submit">Get Free Checklist</button>
-            </form>
+            <form class="krk-klaviyo-subform" onsubmit="event.preventDefault();var f=this,em=(f.querySelector('input[type=email]').value||'').trim(),cb=f.querySelector('input[type=checkbox]'),msg=f.querySelector('.krk-form-msg');if(!em||em.indexOf('@')<1){msg.textContent='Enter a valid email.';return false;}if(cb&&!cb.checked){msg.textContent='Please tick consent first.';return false;}msg.textContent='Submitting...';fetch('https://a.klaviyo.com/client/subscriptions/?company_id=RgKw4X',{method:'POST',headers:{'Content-Type':'application/json','revision':'2024-10-15'},body:JSON.stringify({data:{type:'subscription',attributes:{custom_source:'krk-reviews-subpage',profile:{data:{type:'profile',attributes:{email:em,properties:{consent_source:'krk-subpage-checkbox',consent_at:new Date().toISOString()}}}}},relationships:{list:{data:{type:'list',id:'VfNyH7'}}}}})}).then(function(){msg.textContent='Unlocked: ';var a=document.createElement('a');a.href='https://kreslack07.github.io/krk-reviews/lead-magnets/automation-audit-checklist.pdf';a.textContent='Download Free Audit Checklist (PDF)';a.style.color='#38bdf8';a.style.fontWeight='700';msg.appendChild(a);}).catch(function(){msg.textContent='';var a=document.createElement('a');a.href='https://kreslack07.github.io/krk-reviews/lead-magnets/automation-audit-checklist.pdf';a.textContent='Download Free Audit Checklist (PDF)';a.style.color='#38bdf8';a.style.fontWeight='700';msg.appendChild(a);});return false;">
+  <label style="position:absolute;left:-9999px;">Email address<input type="text" name="hp" tabindex="-1" autocomplete="off"></label>
+  <input type="email" name="email" placeholder="you@business.com.au" aria-label="Email address" required style="padding:10px 12px;border:1px solid #374151;border-radius:6px;background:#0a0a0a;color:#fff;min-width:220px;">
+  <button type="submit" style="padding:10px 18px;background:#007cba;color:#fff;border:none;border-radius:6px;font-weight:700;cursor:pointer;">Unlock Free PDF</button>
+  <div style="margin-top:8px;font-size:0.78rem;color:#94a3b8;">
+    <label><input type="checkbox" required> I consent to receive the free checklist &amp; updates from KRK Digital Products (ABN 71 770 320 895). Unsubscribe anytime.</label>
+  </div>
+  <div class="krk-form-msg" role="status" style="margin-top:8px;font-size:0.85rem;color:#34d399;"></div>
+</form>
         </div>
         <!-- related:v1 -->
 <div class="related-links" style="margin:30px 0;padding:20px;background:#1a1a2e;border-radius:8px;border:1px solid #333;">
