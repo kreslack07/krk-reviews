@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Core Web Vitals for Small-Business Websites: A Practical Fix Order (LCP, INP, CLS) | KRK</title>
+  <meta name="description" content="Google&#x27;s Core Web Vitals thresholds explained - LCP, INP and CLS - with the fix order and the specific causes that slow small-business websites down.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/core-web-vitals-small-business-fix-order.html">
+  <meta property="og:title" content="Core Web Vitals for Small-Business Websites: A Practical Fix Order (LCP, INP, CLS)">
+  <meta property="og:description" content="Google&#x27;s Core Web Vitals thresholds explained - LCP, INP and CLS - with the fix order and the specific causes that slow small-business websites down.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/core-web-vitals-small-business-fix-order.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Core Web Vitals for Small-Business Websites: A Practical Fix Order (LCP, INP, CLS)",
+  "description": "Google's Core Web Vitals thresholds explained - LCP, INP and CLS - with the fix order and the specific causes that slow small-business websites down.",
+  "datePublished": "2026-11-21",
+  "dateModified": "2026-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/core-web-vitals-small-business-fix-order.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>Core Web Vitals for Small-Business Websites: A Practical Fix Order (LCP, INP, CLS)</h1>
+    <div class="byline">Published 2026-11-21 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<p>Most small-business sites are not slow because of anything mysterious. They are slow because a hero image is being served at desktop resolution to a phone on 4G, because seven third-party scripts load before any paragraph renders, or because a chat widget drops into the page after the layout has settled. Each of those has a name, a number attached to it, and a fix that a site builder or a developer can apply in an afternoon.</p>
+<p>This is the Core Web Vitals check from our <a href="ai-seo-website-audit.html">48-hour AI &amp; SEO website audit</a>, written out in full so you can run it yourself. If your site already measures well, good — you have saved yourself a job. If it does not, you will know which file to open.</p>
+<h2>The three metrics, and the numbers Google publishes</h2>
+<p>Core Web Vitals are field measurements: they describe what real visitors experienced, not what a test rig saw once. Google's published thresholds, documented at <a href="https://web.dev/articles/vitals">web.dev/articles/vitals</a>, are:</p>
+<ul>
+<li><strong>LCP (Largest Contentful Paint)</strong> — loading. Good is <strong>2.5 seconds or less</strong>; poor is <strong>over 4 seconds</strong>. Detail: <a href="https://web.dev/articles/lcp">web.dev/articles/lcp</a>.</li>
+<li><strong>INP (Interaction to Next Paint)</strong> — responsiveness. Good is <strong>200 milliseconds or less</strong>; poor is <strong>over 500 milliseconds</strong>. Detail: <a href="https://web.dev/articles/inp">web.dev/articles/inp</a>.</li>
+<li><strong>CLS (Cumulative Layout Shift)</strong> — visual stability. Good is <strong>0.1 or less</strong>; poor is <strong>over 0.25</strong>. Detail: <a href="https://web.dev/articles/cls">web.dev/articles/cls</a>.</li>
+</ul>
+<p>Google applies those thresholds at the <strong>75th percentile</strong> of page loads, reported separately for mobile and desktop — see <a href="https://web.dev/articles/defining-core-web-vitals-thresholds">how the thresholds were chosen</a>. That part is easy to skip: it means three visits in four have to fall inside the threshold. One visitor on a slow phone does not move your number on its own, and a fast laptop does not rescue it either.</p>
+<p>INP replaced the previous responsiveness metric, FID, which older guides still name. Advice written to optimise FID is out of date.</p>
+<h2>Field data versus lab data — do not confuse them</h2>
+<p>Two tools, two different things:</p>
+<ul>
+<li><strong>PageSpeed Insights</strong> reports both. The upper section is field data — real traffic from real devices, the same data that feeds the thresholds above. The bottom section is a Lighthouse lab test: one synthetic load from a Google server. The lab score is a diagnostic, not your grade.</li>
+<li><strong>Search Console → Core Web Vitals</strong> groups your URLs into good, needs improvement and poor, based on field data, per device class.</li>
+</ul>
+<p>A perfect Lighthouse score with failing field data is common and it is not a contradiction: the lab test is a clean room, your visitors are not. Fix what the field data shows. Use the lab report to find out <em>why</em>.</p>
+<h2>LCP: what to fix</h2>
+<p>LCP is the point at which the element occupying the bulk of the viewport — typically a hero image, a heading or a video poster — has finished painting. Three causes cover most small-business sites:</p>
+<ol>
+<li><strong>The hero image is too heavy.</strong> A 4000-pixel-wide JPEG rendered into a 1200-pixel box is being paid for twice: once in download size, once in decode time. Serve it at the size it is displayed, use WebP or AVIF, and use <code>srcset</code> so phones get a smaller file than desktop screens. Where you control markup, preload the hero with <code>&lt;link rel="preload" as="image"&gt;</code> so it is fetched before the browser discovers it in the layout.</li>
+<li><strong>Render-blocking CSS and fonts.</strong> Stylesheets and web fonts in the <code>&lt;head&gt;</code> hold back the initial paint. Load fonts with <code>font-display: swap</code> and a preconnect to the font host, and keep unused CSS out of the critical path. If a builder plugin offers "optimise CSS delivery" or "defer non-critical CSS", that is this fix.</li>
+<li><strong>Server and redirect latency.</strong> Every redirect hop before the HTML arrives is time on the clock. A site that bounces visitors through http to https, then to another hostname, then to the canonical path, adds hundreds of milliseconds before a single byte of content is parsed. Collapse the chain to one permanent redirect.</li>
+</ol>
+<p>If the LCP element is injected by JavaScript, the honest fix is to render it in the HTML instead — lazily loading an above-the-fold image is a common own goal, because lazy loading defers exactly the element the metric is waiting for.</p>
+<h2>INP: the third-party tax</h2>
+<p>INP measures how long the page takes to visibly respond after a visitor taps or types. In practice it is a long-task problem: the main thread is busy running someone else's JavaScript when your visitor asks for something.</p>
+<p>The usual suspects on a small-business site are chat widgets, marketing and heatmap trackers, social embeds, and a tag manager loaded with pixels. You usually cannot delete them, so do the next best things:</p>
+<ul>
+<li>Load non-essential third parties with <code>async</code> or <code>defer</code>, or after the visitor interacts, rather than synchronously in the head.</li>
+<li>Load widgets on the pages that need them — a chat widget does not need to initialise on a legal page nobody scrolls.</li>
+<li>Audit the tag manager once a quarter. Every tag added for a campaign tends to outlive the campaign.</li>
+<li>Break long tasks up: a single script that blocks the main thread for half a second is one blocked tap.</li>
+</ul>
+<p>When INP is poor, the useful question is what ran on the main thread in the second before the visitor interacted, and your browser's performance profiler will answer it.</p>
+<h2>CLS: reserve the space</h2>
+<p>CLS scores how much visible content jumps around while a visitor is reading. It is the easiest of the three to fix, because the fix is usually the same: reserve the space before the content arrives.</p>
+<ul>
+<li>Give every image and video explicit <code>width</code> and <code>height</code>, or an <code>aspect-ratio</code> box. A browser that knows the dimensions can hold the space.</li>
+<li>Reserve fixed space for ads, cookie bars, banners and inline embeds. A consent banner that pushes the whole page down after 800 milliseconds is a layout shift by definition.</li>
+<li>Use <code>font-display: swap</code> with a fallback metric-matched font so the swap does not reflow the text block.</li>
+<li>Avoid inserting content above what a visitor is already reading — "related posts" pushed above the fold after load is the classic example.</li>
+</ul>
+<h2>Fix them in this order</h2>
+<ol>
+<li><strong>Measure.</strong> Open PageSpeed Insights on five landing pages and note which metrics fail in the <em>field</em> data section, per device.</li>
+<li><strong>Start with LCP.</strong> It is the metric visitors feel, it is usually one or two images, and it is a relatively cheap fix.</li>
+<li><strong>Then INP.</strong> Move third parties off the critical path, then remove the ones nobody uses.</li>
+<li><strong>Then CLS.</strong> Dimension every image and reserve every dynamic slot.</li>
+<li><strong>Re-measure after a week.</strong> Field data is a rolling window of real visits, so it moves slowly. Give it time before you judge a change.</li>
+</ol>
+<p>Do not rebuild your site to chase a perfect score in a lab tool. The three numbers that matter are LCP, INP and CLS in the field, on mobile, at the 75th percentile.</p>
+<h2>What a manual check will not tell you</h2>
+<p>A self-check tells you <em>that</em> LCP is failing in field data. It does not tell you which of six images, which of two font hosts, or which of the eleven scripts in your tag manager is responsible, and it will not write the replacement markup for you. That is the part of our audit that saves time: concrete diagnostics naming the specific asset, the specific script and the specific fix, ranked by what will move the measurement soonest — alongside the other three checks: technical crawl and indexation, on-page copy with replacement title tags and meta descriptions, and Schema.org validation with paste-ready JSON-LD.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Us to Run Every Check on Your Site in 48 Hours?</h2>
+      <p>Order a full technical SEO, Core Web Vitals, schema markup, and AI-search readiness (AEO/GEO) audit for one fixed price of <strong>$49 AUD</strong> — or grab the free 27-point PDF checklist first.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit — A$49 AUD</a>
+      <a class="btn-secondary" href="lead-magnets/automation-audit-checklist.pdf">Download Free Checklist (PDF)</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a></p>
+  </footer>
+</body>
+</html>
