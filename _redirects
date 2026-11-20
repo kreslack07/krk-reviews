@@ -1,0 +1,11 @@
+# KRK SEO — host consolidation (2026-11-21)
+#
+# The canonical host for this property is the GitHub Pages copy:
+#   https://kreslack07.github.io/krk-reviews/
+# Every page here carries <link rel="canonical"> pointing at that host, the Google
+# Search Console property is registered on that host, and the sitemap is submitted there.
+# This Netlify copy was a stale duplicate (last published 2026-09-27).
+#
+# Force a 301 so Google and every inbound link land on the canonical host instead of a
+# second, outdated copy of the same 69 URLs.
+/*  https://kreslack07.github.io/krk-reviews/:splat  301!
