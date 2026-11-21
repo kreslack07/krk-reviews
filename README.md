@@ -6,9 +6,13 @@ checkout amount exactly.
 
 **→ Shop the full catalogue: https://kreslack07.github.io/krk-reviews/**
 
-28 digital products by KRK Digital Templates (Australian sole trader,
+**28 digital products by KRK Digital Templates (Australian sole trader,
 ABN 71 770 320 895). 22 of them are available for instant checkout right now:
 17 on Gumroad, 5 on Stripe.
+
+> Reconciled 2026-11-21: this README is the human catalogue (27 products incl. Gumroad links).
+> The shoppable `shop.html` page is generated only from `os/catalog.json` = the Stripe-backed SKUs,
+> so the paid page always matches live, active Stripe payment links.
 
 ## Buy now — card checkout (Stripe)
 
