@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Crawlers in robots.txt: Which Ones to Allow So Assistants Cite You | KRK</title>
+  <meta name="description" content="Google, OpenAI, Anthropic and Perplexity each publish separate robots.txt tokens for AI training, AI search and user-triggered fetches. Here is what each one actually controls, and the block that lets answer engines cite you without handing over training data.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/ai-crawlers-robots-txt-what-to-allow.html">
+  <meta property="og:title" content="AI Crawlers in robots.txt: Which Ones to Allow So Assistants Cite You">
+  <meta property="og:description" content="Google, OpenAI, Anthropic and Perplexity each publish separate robots.txt tokens for AI training, AI search and user-triggered fetches. Here is what each one actually controls.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/ai-crawlers-robots-txt-what-to-allow.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Crawlers in robots.txt: Which Ones to Allow So Assistants Cite You",
+  "description": "Google, OpenAI, Anthropic and Perplexity each publish separate robots.txt tokens for AI training, AI search and user-triggered fetches. Here is what each one actually controls.",
+  "datePublished": "2026-11-22",
+  "dateModified": "2026-11-22",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/ai-crawlers-robots-txt-what-to-allow.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article pre code { background: none; padding: 0; color: #a5b4fc; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>AI Crawlers in robots.txt: Which Ones to Allow So Assistants Cite You</h1>
+    <div class="byline">Published 2026-11-22 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<h2>&ldquo;Block the AI bots&rdquo; is the wrong instruction</h2>
+<p>Every assistant vendor splits its traffic into separate robots.txt tokens, and each token does a different job. Block them all and you drop out of the answer boxes that now sit above your organic listing. Block none and you hand over training data you may not want to give away. The tokens are published by each vendor, so this is a reading exercise, not a guess.</p>
+<h2>Three categories, per Google's own crawler documentation</h2>
+<p>Google's crawling documentation groups its clients into common crawlers (they &ldquo;always respect robots.txt rules&rdquo; for automatic crawls), special-case crawlers used by specific products, and user-triggered fetchers that act because a person asked for something. The same split exists at OpenAI, Anthropic and Perplexity. The category matters more than the vendor name.</p>
+<h2>The token that is not a crawler at all</h2>
+<p><code>Google-Extended</code> has no HTTP user agent of its own &mdash; Google crawls with its existing agents and reads the token in a control capacity. It governs whether content Google already crawls may be used to train future Gemini models and to ground Gemini Apps and Vertex AI. Google states plainly that it &ldquo;does not impact a site's inclusion in Google Search nor is it used as a ranking signal in Google Search&rdquo;.</p>
+<h2>OpenAI: three tags, three decisions</h2>
+<ul>
+<li><code>OAI-SearchBot</code> &mdash; search. Sites opted out &ldquo;will not be shown in ChatGPT search answers, though can still appear as navigational links&rdquo;. Allow it if you want citations. OpenAI says allow roughly 24 hours after a robots.txt change.</li>
+<li><code>GPTBot</code> &mdash; training. Disallowing it &ldquo;indicates a site's content should not be used in training generative AI foundation models&rdquo;.</li>
+<li><code>ChatGPT-User</code> &mdash; user-initiated fetches. Because a user asked, &ldquo;robots.txt rules may not apply&rdquo;, and OpenAI says this token is not the one that controls Search.</li>
+</ul>
+<h2>Anthropic and Perplexity</h2>
+<p>Anthropic publishes <code>ClaudeBot</code> (training), <code>Claude-User</code> (user-requested fetches) and <code>Claude-SearchBot</code> (search relevance), and states its bots &ldquo;respect do not crawl signals by honoring industry standard directives in robots.txt&rdquo;. It also supports the non-standard <code>Crawl-delay</code> directive, and asks that you opt out on every subdomain separately. Perplexity's <code>PerplexityBot</code> is for surfacing and linking sites in search results and is not used to crawl for foundation models; <code>Perplexity-User</code> handles user-requested fetches and, in Perplexity's words, &ldquo;generally ignores robots.txt rules&rdquo;. Both vendors publish IP ranges, which is what you allowlist if a WAF is blocking them.</p>
+<h3>A starter block</h3>
+<pre><code># Let answer engines find and cite the site
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+
+# Opt out of model training
+User-agent: GPTBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /</code></pre>
+<h2>What a robots.txt line cannot do</h2>
+<p>It cannot remove content already collected, and user-triggered fetchers may ignore it by design. It also does nothing if a CDN or firewall blocks the bot before robots.txt is ever read &mdash; the vendor IP lists exist for exactly that reason.</p>
+<p>Getting crawler access right is one of the checks inside the <a href="https://kreslack07.github.io/krk-reviews/shop.html">48-hour AI &amp; SEO website audit</a> &mdash; <strong>A$49 AUD</strong> fixed price, written up in 48 hours.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Every One of These Checks Run on Your Site in 48 Hours?</h2>
+      <p>Order the 48-hour AI &amp; SEO website audit for one fixed price of <strong>A$49 AUD</strong> — technical SEO, Core Web Vitals, schema markup, on-page copy with replacement titles and descriptions, and AI-search readiness. Done in 48 hours, no retainer, or take the free checklist first.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit — A$49 AUD</a>
+      <a class="btn-secondary" href="https://kreslack07.github.io/krk-reviews/shop.html">See the Full Price List on shop.html</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a> &middot; <a href="shop.html">All Packs</a></p>
+  </footer>
+</body>
+</html>
