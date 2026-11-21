@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canonical Tags and Duplicate URLs: Which Page Should Google Rank? | KRK</title>
+  <meta name="description" content="How Google chooses between duplicate URLs on a small site, the three canonicalisation signals ranked by strength, and the rel=canonical mistakes that cost crawl budget.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/canonical-tags-duplicate-urls-small-business.html">
+  <meta property="og:title" content="Canonical Tags and Duplicate URLs: Which Page Should Google Rank?">
+  <meta property="og:description" content="How Google chooses between duplicate URLs on a small site, the three canonicalisation signals ranked by strength, and the rel=canonical mistakes that cost crawl budget.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/canonical-tags-duplicate-urls-small-business.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Canonical Tags and Duplicate URLs: Which Page Should Google Rank?",
+  "description": "How Google chooses between duplicate URLs on a small site, the three canonicalisation signals ranked by strength, and the rel=canonical mistakes that cost crawl budget.",
+  "datePublished": "2026-11-21",
+  "dateModified": "2026-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/canonical-tags-duplicate-urls-small-business.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>Canonical Tags and Duplicate URLs: Which Page Should Google Rank?</h1>
+    <div class="byline">Published 2026-11-21 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<p>Most small sites publish more URLs than pages. The home page answers at <code>/</code> and at <code>/index.html</code>; the same content is reachable over <code>http://</code> and <code>https://</code>, with and without <code>www</code>, with a tracking parameter bolted on, and sometimes from a staging copy the host left crawlable. Google must pick one of those URLs to show people, and its pick is the canonical. You can state a preference: Google's <a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls">canonicalisation guide</a> ranks the methods by how strongly each influences that choice.</p>
+<h2>Three signals, in order of strength</h2>
+<ul>
+<li><strong>Redirects</strong> — strongest. Use a permanent redirect only when you are genuinely retiring a duplicate, because the target becomes the canonical.</li>
+<li><strong><code>rel="canonical"</code> annotations</strong> — a <code>&lt;link rel="canonical"&gt;</code> in the <code>&lt;head&gt;</code>, or the same instruction as an HTTP header, which also covers non-HTML files such as PDFs.</li>
+<li><strong>Sitemap inclusion</strong> — weakest. It helps, but Google must still work out which URL it duplicates.</li>
+</ul>
+<p>None of this is compulsory. Say nothing and Google selects a canonical itself. The methods stack, so combining two or more increases the chance your preferred URL is the one displayed.</p>
+<h2>Four reasons to say it out loud</h2>
+<p>Choosing the URL people see; consolidating link signals into one URL; getting one set of metrics per piece of content; and not burning crawl time on pages you did not want crawled.</p>
+<h2>The instructions that quietly get ignored</h2>
+<ul>
+<li><code>robots.txt</code> is not a canonicalisation tool — a blocked URL can still be indexed without its content.</li>
+<li>Neither is the URL removal tool; it hides <em>every</em> version of the URL from Search.</li>
+<li>Do not point one page at two different canonicals using two different methods.</li>
+<li>Do not canonicalise to a URL fragment; Google does not support fragments here.</li>
+<li>Do not use <code>noindex</code> to choose between your own pages — it removes the page from Search, which is why <code>rel="canonical"</code> is the recommended tool.</li>
+<li>Do include a self-referencing canonical on the canonical page itself.</li>
+<li>Use absolute URLs (<code>https://example.com/page</code>), not paths (<code>/page</code>); relative canonicals break the day a staging site gets crawled.</li>
+<li>A <code>rel="canonical"</code> carrying <code>hreflang</code>, <code>lang</code>, <code>media</code> or <code>type</code> is ignored.</li>
+<li>Link between your own pages using the canonical URL, not a duplicate.</li>
+</ul>
+<h2>Check what Google actually chose</h2>
+<p>Search Console's <a href="https://support.google.com/webmasters/answer/9012289">URL Inspection tool</a> shows two fields side by side: the canonical you declared and the one Google selected. Where they disagree, one of the instructions above has been overruled.</p>
+<h2>A twenty-minute pass</h2>
+<ol>
+<li>Inspect the home page and your three most valuable URLs. Note any Google-selected canonical that is not the URL you would print on a business card.</li>
+<li>Search each page source for more than one <code>link rel="canonical"</code>.</li>
+<li>Check that the <code>http</code> and <code>www</code> variants genuinely 301 to the version you declared.</li>
+<li>Look for parameter URLs in the index (<code>?utm_</code>, <code>?gclid</code>, shop sort and filter parameters) and canonicalise or block them properly.</li>
+<li>Confirm the sitemap lists canonical URLs and nothing else.</li>
+</ol>
+<p>Reading this yourself takes twenty minutes. Finding every conflicting pair across a template set and writing the corrected markup is the afternoon-eating part — and it is one of the checks in our <a href="https://kreslack07.github.io/krk-reviews/shop.html">fixed-price AI and SEO website audit</a>.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Every One of These Checks Run on Your Site in 48 Hours?</h2>
+      <p>Order the 48-hour AI &amp; SEO website audit for one fixed price of <strong>A$49 AUD</strong> — technical SEO, Core Web Vitals, schema markup, on-page copy with replacement titles and descriptions, and AI-search readiness. Done in 48 hours, no retainer, or take the free checklist first.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit — A$49 AUD</a>
+      <a class="btn-secondary" href="https://kreslack07.github.io/krk-reviews/shop.html">See the Full Price List on shop.html</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a> &middot; <a href="shop.html">All Packs</a></p>
+  </footer>
+</body>
+</html>
