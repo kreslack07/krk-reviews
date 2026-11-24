@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Google May See an Empty Page: JavaScript Rendering and the Fix Order | KRK</title>
+  <meta name="description" content="Google renders JavaScript with an evergreen Chromium, but on a separate render queue. How to check whether your content exists in the rendered HTML, and the fixes in priority order.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/javascript-rendering-google-sees-empty-page.html">
+  <meta property="og:title" content="Why Google May See an Empty Page: JavaScript Rendering and the Fix Order">
+  <meta property="og:description" content="Google renders JavaScript with an evergreen Chromium, but on a separate render queue. How to check whether your content exists in the rendered HTML, and the fixes in priority order.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/javascript-rendering-google-sees-empty-page.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why Google May See an Empty Page: JavaScript Rendering and the Fix Order",
+  "description": "Google renders JavaScript with an evergreen Chromium, but on a separate render queue. How to check whether your content exists in the rendered HTML, and the fixes in priority order.",
+  "datePublished": "2026-11-25",
+  "dateModified": "2026-11-25",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/javascript-rendering-google-sees-empty-page.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>Why Google May See an Empty Page: JavaScript Rendering and the Fix Order</h1>
+    <div class="byline">Published 2026-11-25 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<p>If your site is built as a React, Vue, Angular or plain JavaScript app, there are two versions of every page: the one you see in a browser, and the one Google may see. They are not always the same document. Google does run JavaScript &mdash; it renders with &ldquo;an evergreen version of Chromium&rdquo; &mdash; but rendering sits on its own queue, and that queue is why a page can be crawled, reported as fine, and still contain almost nothing Google can index.</p>
+<h2>The three phases, and where pages wait</h2>
+<p>Google Search processes JavaScript in three phases: crawling, rendering, indexing. Googlebot queues pages for both crawling and rendering, and in Google's own words, &ldquo;it is not immediately obvious when a page is waiting for crawling and when it is waiting for rendering.&rdquo;</p>
+<p>Googlebot queues all pages with a <code>200</code> status code for rendering, unless a robots meta tag or header tells Google not to index the page. The page may stay on that queue &ldquo;for a few seconds, but it can take longer than that&rdquo;. Only once Google's resources allow does a headless Chromium render the page, execute the JavaScript, and hand the rendered HTML back for indexing.</p>
+<p>So a JavaScript page is rarely broken. It is late. And two kinds of visitor never reach the render queue at all: anything blocked in robots.txt, because Google Search &ldquo;won't render JavaScript from blocked files or on blocked pages&rdquo;, and every bot that cannot execute JavaScript in the first place.</p>
+<h2>The check that settles it in two minutes</h2>
+<p>Do not reason about it &mdash; look at the rendered HTML. If your body copy, prices, headings and links are missing from it, Google is indexing an empty shell.</p>
+<ul>
+<li><strong>Search Console</strong> &rarr; URL Inspection &rarr; View crawled page &rarr; HTML. This is the document Google indexed, not the one your framework produced.</li>
+<li><strong>Rich Results Test</strong> shows the same rendered HTML for a staging or live URL before you ship.</li>
+<li><strong>View source</strong> on the raw server response with the browser cache disabled. If content only appears after scripts run, the server is sending an empty shell.</li>
+</ul>
+<h2>Fix order</h2>
+<p>Ranked by how much of the page each fix recovers:</p>
+<ol>
+<li><strong>Serve the money pages as HTML.</strong> Server-side render or pre-render services, pricing, location and product pages. Google recommends this outright because it makes a site faster for users and crawlers, and because &ldquo;not all bots can run JavaScript&rdquo;.</li>
+<li><strong>Put the primary copy in the initial HTML</strong> &mdash; titles, headings, the paragraph that answers the query, and prices.</li>
+<li><strong>Use real links.</strong> Google &ldquo;can only discover your links if they are <code>&lt;a&gt;</code> HTML elements with an <code>href</code> attribute&rdquo;. Hash-fragment routing such as <code>#/services</code> cannot be reliably resolved, so client-side routing belongs on the History API.</li>
+<li><strong>Keep the canonical in the original HTML</strong> rather than injecting it, and never let JavaScript point the canonical at a different URL than the HTML did.</li>
+<li><strong>Answer missing pages with a real status code.</strong> In single-page apps, either redirect to a URL the server answers with <code>404</code>, or add a <code>noindex</code> meta tag to the error view. Otherwise you generate soft 404s.</li>
+<li><strong>Check web components.</strong> Google flattens shadow DOM and light DOM into the rendered HTML, and content that is not in that rendered HTML cannot be indexed.</li>
+</ol>
+<p>Lazy-loaded images, long-lived caching and content fingerprinting matter as well &mdash; but only after the content itself is visible to a crawler. Do them last.</p>
+<p>The audit runs this test on your live URLs, compares the rendered HTML against the server response, and returns the fixes in this order. The <a href="shop.html">full price list is on shop.html</a>.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Every One of These Checks Run on Your Site in 48 Hours?</h2>
+      <p>Order the 48-hour AI &amp; SEO website audit for one fixed price of <strong>A$49 AUD</strong> &mdash; technical SEO, JavaScript rendering and indexation, Core Web Vitals, schema markup, on-page copy with replacement titles and descriptions, and AI-search readiness. Done in 48 hours, no retainer, or take the free checklist first.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit — A$49 AUD</a>
+      <a class="btn-secondary" href="https://kreslack07.github.io/krk-reviews/shop.html">See the Full Price List on shop.html</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a> &middot; <a href="shop.html">All Packs</a></p>
+  </footer>
+</body>
+</html>
