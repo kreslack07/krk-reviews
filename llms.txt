@@ -89,6 +89,8 @@
 
 - [Why Google May See an Empty Page: JavaScript Rendering and the Fix Order](https://kreslack07.github.io/krk-reviews/javascript-rendering-google-sees-empty-page.html): Google renders JavaScript with an evergreen Chromium, but on a separate render queue. How to check whether your content exists in the rendered HTML, and the fixes in priority order.
 
+- [Mixed Content: Why Chrome Still Labels an HTTPS Site “Not Secure”](https://kreslack07.github.io/krk-reviews/mixed-content-https-not-secure-fixes.html): Mixed content is the most common reason an HTTPS page keeps a security warning. What Chrome blocks, what it auto-upgrades, and the fix order that clears the warning for good.
+- [Scaled Content Abuse: How Many AI-Assisted Pages Is Too Many?](https://kreslack07.github.io/krk-reviews/scaled-content-abuse-ai-pages-small-business.html): Google's scaled content abuse and site reputation policies, in its own wording — plus the pre-publish test that decides whether a batch of new pages is an asset or a liability.
 ## Alternatives & comparison pages
 - [AI Agent Toolkit Alternatives & Competitors — KRK Reviews](https://kreslack07.github.io/krk-reviews/alternatives/ai-agent-toolkit.html): Honest comparison of AI Agent Toolkit against the main ai tools and templates. See pricing, best-for, and standout features side by side.
 - [AI Prompt Engineering Toolkit Alternatives & Competitors — KRK Reviews](https://kreslack07.github.io/krk-reviews/alternatives/ai-prompt-toolkit.html): Honest comparison of AI Prompt Engineering Toolkit against the main prompt tools and templates. See pricing, best-for, and standout features side by side.

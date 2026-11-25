@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixed Content: Why Chrome Still Labels an HTTPS Site “Not Secure” | KRK</title>
+  <meta name="description" content="Mixed content is the most common reason an HTTPS page keeps a security warning. What Chrome blocks, what it auto-upgrades, and the fix order that clears the warning for good.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/mixed-content-https-not-secure-fixes.html">
+  <meta property="og:title" content="Mixed Content: Why Chrome Still Labels an HTTPS Site “Not Secure”">
+  <meta property="og:description" content="Mixed content is the most common reason an HTTPS page keeps a security warning. What Chrome blocks, what it auto-upgrades, and the fix order that clears the warning for good.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/mixed-content-https-not-secure-fixes.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Mixed Content: Why Chrome Still Labels an HTTPS Site \u201cNot Secure\u201d",
+  "description": "Mixed content is the most common reason an HTTPS page keeps a security warning. What Chrome blocks, what it auto-upgrades, and the fix order that clears the warning for good.",
+  "datePublished": "2026-11-26",
+  "dateModified": "2026-11-26",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/mixed-content-https-not-secure-fixes.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>Mixed Content: Why Chrome Still Labels an HTTPS Site “Not Secure”</h1>
+    <div class="byline">Published 2026-11-26 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<p>You bought the certificate, the padlock is on the address bar, and Chrome still flags the page as not secure. In most cases the cause is mixed content: the HTML itself arrived over HTTPS, but something inside the page &mdash; an image, a font, a script, an embedded map &mdash; was requested over plain HTTP.</p>
+<h2>What mixed content actually is</h2>
+<p>web.dev defines a page as mixed content &ldquo;when its initial HTML is loaded over a secure HTTPS connection, but other resources (such as images, videos, stylesheets, and scripts) are loaded over an insecure HTTP connection&rdquo;. Those subresource requests are open to on-path attackers, who can watch and modify what is sent.</p>
+<h2>Two categories, two different failure modes</h2>
+<ul>
+<li><strong>Passive mixed content</strong> &mdash; images, video, audio. The risk is lower, but web.dev notes most browsers still report the page as insecure &ldquo;even when the page itself is loaded over HTTPS&rdquo;. Chrome automatically upgrades passive mixed content, loading the HTTPS copy of the asset; &ldquo;if there's no secure version, the asset doesn't load&rdquo;. Broken hero images are usually this.</li>
+<li><strong>Active mixed content</strong> &mdash; scripts, stylesheets, iframes, anything the browser can execute. &ldquo;Most browsers already block this type of content by default.&rdquo; The result is silent: the map never renders, the form never submits, the widget simply does nothing.</li>
+</ul>
+<p>Chrome lists every insecure resource and its restriction status in the DevTools <strong>Issues</strong> tab, which is the fastest way to see the real list rather than the visible symptoms.</p>
+<h2>How this became a commercial problem</h2>
+<p>Chrome has marked all HTTP pages &ldquo;Not secure&rdquo; in the address bar since <strong>Chrome 68 (July 2018)</strong>, and escalated from Chrome 70 (October 2018) to a red warning when someone enters data on an HTTP page. HTTPS has also been a ranking signal since 2014, though Google's own framing is worth keeping honest: &ldquo;a very lightweight signal &mdash; affecting fewer than 1% of global queries&rdquo;. The larger cost is behavioural. A security warning over a quote form or a checkout button ends the visit before rankings matter.</p>
+<h2>The fix order that clears it</h2>
+<ol>
+<li><strong>Serve everything over HTTPS.</strong> A valid certificate covering every hostname you actually use &mdash; with and without <code>www</code>. Let's Encrypt issues these at no cost, and auto-renewal plus expiry monitoring matters more than the certificate itself: an expired cert produces a full-page interstitial that is far more damaging than a mixed-content label.</li>
+<li><strong>One 301 redirect</strong> from HTTP to HTTPS, and from any duplicate hostname, straight to the final URL with no chain through a third address.</li>
+<li><strong>Sweep hard-coded <code>http://</code> subresources.</strong> Template partials, header and footer embeds, legacy map or booking iframes, font and CDN URLs, leftover script tags, and form <code>action</code> attributes carried over from a pre-HTTPS theme.</li>
+<li><strong>Align the URL surfaces.</strong> Internal links, canonical tags, <code>og:url</code> and sitemap.xml should all be HTTPS so crawl signals agree with what the browser loads.</li>
+<li><strong>Add HSTS last</strong>, once nothing on the site depends on HTTP, so the browser stops attempting an insecure request at all.</li>
+</ol>
+<p>The check is mechanical: search the rendered source for <code>http://</code>, open the DevTools Issues panel on the pages that carry forms, maps and embeds, then rescan after deployment. Mixed-content regressions almost always arrive the day someone pastes a new embed.</p>
+<p>If you would rather this ran against your live URLs than your templates, the <a href="shop.html">48-hour audit includes an HTTPS and mixed-content sweep</a> alongside crawl, schema and AI-search checks.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Every One of These Checks Run on Your Site in 48 Hours?</h2>
+      <p>Order the 48-hour AI &amp; SEO website audit for one fixed price of <strong>A$49 AUD</strong> &mdash; technical SEO, crawl and indexation, HTTPS and mixed content, schema and rich-result eligibility, internal linking, Core Web Vitals, on-page copy with replacement titles and descriptions, and AI-search readiness. Delivered in 48 hours, no retainer. Or browse the full catalogue first on <a href="https://kreslack07.github.io/krk-reviews/shop.html">shop.html</a>.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit &mdash; A$49 AUD</a>
+      <a class="btn-secondary" href="https://kreslack07.github.io/krk-reviews/shop.html">See the Full Price List on shop.html</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a> &middot; <a href="https://kreslack07.github.io/krk-reviews/shop.html">All Packs</a></p>
+  </footer>
+</body>
+</html>
