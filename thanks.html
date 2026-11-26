@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Payment received — what happens next | KRK Studio</title>
+<meta name="robots" content="noindex" />
+<link rel="canonical" href="https://kreslack07.github.io/krk-reviews/thanks.html" />
+<!-- krk-analytics -->
+<script async src="/krk-reviews/krk-analytics.js" data-krk-thanks="1" data-krk-sku="krk-audit-48h"></script>
+<style>
+  :root { --bg:#0b0d10; --card:#14181d; --line:#243039; --txt:#e8eef2; --dim:#9fb1bd; --accent:#4ade80; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:28px; margin-top:22px; }
+  h1 { font-size:1.6rem; margin:0 0 8px; }
+  h2 { font-size:1.05rem; margin:26px 0 8px; }
+  p { margin:0 0 12px; }
+  .dim { color:var(--dim); }
+  .tick { color:var(--accent); font-weight:700; }
+  .step { border-left:3px solid var(--accent); padding:2px 0 2px 14px; margin:0 0 14px; }
+  a { color:var(--accent); }
+  ol { padding-left:20px; }
+  li { margin:0 0 8px; }
+  .foot { margin-top:28px; color:var(--dim); font-size:.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="tick">&#10003;</span> Payment received — thank you</h1>
+  <p class="dim">KRK Studio · KRK Digital Templates · ABN 71 770 320 895 · Sydney, Australia. A tax receipt is on its way to your email.</p>
+
+  <div class="card" id="card-krk-audit-48h">
+    <h2>Your 48-hour AI &amp; SEO website audit</h2>
+    <div class="step">
+      <strong>One thing left to do:</strong> reply to the receipt email with the full website address you want audited
+      (for example <code>https://yourdomain.com.au</code>).
+    </div>
+    <p>As soon as that URL arrives, the audit runs: 10-point technical check, ranking blockers, AI-search visibility
+    and a prioritised fix list with effort estimates.</p>
+    <p>Your PDF report and 10-minute walkthrough video are emailed within 48 business hours.
+    One revision is included, and there is a 7-day refund if the report is not actionable.</p>
+  </div>
+
+  <div class="card" id="card-krk-seo-check-10pt" hidden>
+    <h2>Your 10-point SEO quick check (24 hours)</h2>
+    <p>Nothing else is needed from you — the check runs against the site on the order.</p>
+    <p>Your one-page PDF lands at this email within 24 hours: index status, titles and meta, headings, speed,
+    mobile, internal links, schema, crawl and the top three fixes ranked by impact. 7-day refund if it is not useful.</p>
+  </div>
+
+  <div class="card" id="card-krk-care-99mo" hidden>
+    <h2>Your Local Visibility Care month is live</h2>
+    <p>The first run starts now: 10-point visibility re-check, a ranked one-page report within 24 hours,
+    Google review replies drafted, profile corrections and priority email answers.</p>
+    <p>Cancel any time; 7-day refund on the first month.</p>
+  </div>
+
+  <div class="card" id="card-generic">
+    <h2>What happens next</h2>
+    <p>Your receipt and delivery email are on the way. If nothing arrives within 10 minutes, check spam, then reply to
+    the receipt and we will re-send it.</p>
+  </div>
+
+  <h2>Invoices, refunds and questions</h2>
+  <p>Reply to your receipt email — that reaches us directly. Invoices, GST receipts, refunds and any change of
+  website address are handled from that same thread.</p>
+
+  <p class="foot">Back to the <a href="https://kreslack07.github.io/krk-reviews/">KRK Studio site</a>.</p>
+</div>
+
+<script>
+  /* Show only the card for the SKU carried on the Stripe redirect URL. */
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var sku = q.get('sku');
+    if (!q.get('thanks') && !sku) { return; }
+    var wanted = sku ? 'card-' + sku : null;
+    var cards = document.querySelectorAll('.card');
+    var found = false;
+    for (var i = 0; i < cards.length; i++) {
+      var id = cards[i].id;
+      if (id === 'card-generic') { continue; }
+      var show = wanted && id === wanted;
+      cards[i].hidden = !show;
+      if (show) { found = true; }
+    }
+    var generic = document.getElementById('card-generic');
+    if (generic) { generic.hidden = found; }
+  })();
+</script>
+</body>
+</html>
