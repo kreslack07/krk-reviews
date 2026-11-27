@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faceted Navigation: How Filter URLs Eat a Small Site's Crawl Budget | KRK</title>
+  <meta name="description" content="Google's faceted navigation guide explains overcrawling and slower discovery crawls caused by filter URLs - plus the robots.txt rule, canonical choice and 404 rule that fix it.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/faceted-navigation-crawl-budget-small-business.html">
+  <meta property="og:title" content="Faceted Navigation: How Filter URLs Eat a Small Site's Crawl Budget">
+  <meta property="og:description" content="Google's faceted navigation guide explains overcrawling and slower discovery crawls caused by filter URLs - plus the robots.txt rule, canonical choice and 404 rule that fix it.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://kreslack07.github.io/krk-reviews/faceted-navigation-crawl-budget-small-business.html">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Faceted Navigation: How Filter URLs Eat a Small Site's Crawl Budget",
+  "description": "Google's faceted navigation guide explains overcrawling and slower discovery crawls caused by filter URLs - plus the robots.txt rule, canonical choice and 404 rule that fix it.",
+  "datePublished": "2026-11-28",
+  "dateModified": "2026-11-28",
+  "author": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KRK Digital Products",
+    "url": "https://kreslack07.github.io/krk-reviews/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kreslack07.github.io/krk-reviews/faceted-navigation-crawl-budget-small-business.html"
+  }
+}
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e7eb; line-height: 1.7; }
+    .nav { background: #111827; border-bottom: 1px solid #1f2937; padding: 14px 20px; }
+    .nav-inner { max-width: 860px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .nav a { color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 20px 60px; }
+    h1 { font-size: 2.1rem; line-height: 1.25; color: #ffffff; margin-bottom: 14px; }
+    .byline { font-size: 0.9rem; color: #9ca3af; margin-bottom: 28px; padding-bottom: 18px; border-bottom: 1px solid #1f2937; }
+    article h2 { font-size: 1.45rem; color: #ffffff; margin: 32px 0 12px; }
+    article h3 { font-size: 1.15rem; color: #38bdf8; margin: 22px 0 8px; }
+    article p { margin-bottom: 16px; color: #d1d5db; }
+    article ul, article ol { margin: 0 0 18px 24px; color: #d1d5db; }
+    article li { margin-bottom: 8px; }
+    article code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: #93c5fd; }
+    article pre { background: #111827; border: 1px solid #1f2937; padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 18px; }
+    article blockquote { border-left: 3px solid #007cba; padding-left: 16px; color: #9ca3af; margin: 18px 0; }
+    article a { color: #38bdf8; }
+    .cta-box { margin-top: 40px; background: linear-gradient(135deg, #141428 0%, #1e1b4b 100%); border: 1px solid #4338ca; border-radius: 12px; padding: 28px; }
+    .cta-box h2 { color: #ffffff; font-size: 1.4rem; margin-bottom: 10px; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 18px; }
+    .btn-primary { display: inline-block; padding: 12px 24px; background: #635bff; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 700; margin-right: 10px; margin-bottom: 8px; }
+    .btn-secondary { display: inline-block; padding: 12px 20px; background: #0f172a; color: #38bdf8; border: 1px solid #38bdf8; text-decoration: none; border-radius: 6px; font-weight: 600; margin-bottom: 8px; }
+    footer { text-align: center; padding: 28px 20px; color: #6b7280; font-size: 0.85rem; border-top: 1px solid #1f2937; }
+    footer a { color: #38bdf8; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html">&larr; KRK Digital Products &amp; Services</a>
+      <a href="ai-seo-website-audit.html">48-Hour AI &amp; SEO Website Audit ($49 AUD) &rarr;</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <h1>Faceted Navigation: How Filter URLs Eat a Small Site's Crawl Budget</h1>
+    <div class="byline">Published 2026-11-28 &middot; By KRK Digital Products (ABN 71 770 320 895, Australia)</div>
+    <article>
+<p>If your site lets visitors filter anything &mdash; colour, size, suburb, price, brand &mdash; then every combination of those filters can be its own URL. That is not a theme bug. It is how most catalogue and listing sites are built, and Google has written a dedicated page about it because of the damage the default implementation does.</p>
+<h2>Why filter URLs create an &lsquo;infinite URL space&rsquo;</h2>
+<p>Google&rsquo;s <a href="https://developers.google.com/crawling/docs/faceted-navigation">Managing crawling of faceted navigation URLs</a> says the most common implementation, which is based on URL parameters, &lsquo;can generate infinite URL spaces&rsquo;, and names two consequences:</p>
+<blockquote><strong>Overcrawling:</strong> Because the URLs created for the faceted navigation seem to be novel and crawlers can&rsquo;t determine whether the URLs are going to be useful without crawling first, the crawlers will typically access a very large number of faceted navigation URLs before the crawlers&rsquo; processes determine the URLs are in fact useless.</blockquote>
+<p>And the second, which is the one that costs you rankings:</p>
+<blockquote><strong>Slower discovery crawls:</strong> Stemming from the previous point, if crawling is spent on useless URLs, the crawlers have less time to spend on new, useful URLs.</blockquote>
+<p>Google&rsquo;s own example shows how quickly this multiplies: <code>example.com/items.shtm?products=fish&amp;color=radioactive_green&amp;size=tiny</code>. Three filters, and every change of any one of them is a different page.</p>
+<h2>Option 1: block the filter URLs</h2>
+<p>If you do not need filtered pages to show up in Search, Google&rsquo;s first recommendation is to stop them being crawled at all &mdash; usually with robots.txt. Its example rule disallows the parameter keys and re-allows the unfiltered listing:</p>
+<pre>user-agent: Googlebot
+disallow: /*?*color=
+disallow: /*?*size=
+allow: /*?products=all$</pre>
+<p>&lsquo;Oftentimes there&rsquo;s no good reason to allow crawling of filtered items,&rsquo; the guide notes, because it consumes server resources for little benefit. What you do want crawled is the individual item pages plus one listing page that shows everything with no filters. Filters carried in a URL fragment (<code>#color=green</code>) have no effect on crawling either way. Google also documents <code>rel="canonical"</code> and <code>rel="nofollow"</code> as options, but says they are &lsquo;generally less effective in the long term&rsquo; than the crawling controls.</p>
+<h2>Option 2: if filters must be crawlable, keep them clean</h2>
+<p>Where filters genuinely add indexable pages, Google lists three rules. Use the industry-standard <code>&amp;</code> separator &mdash; commas, semicolons and brackets are hard for crawlers to read as separators. If filters sit in the URL path, always keep the logical order the same and make duplicate filters impossible. And return an HTTP <code>404</code> when a filter combination has no results, including duplicate or nonsensical combinations and nonexistent pagination URLs. The guide is explicit: do not redirect those to a common &lsquo;not found&rsquo; page. Serve the error under the URL where it was hit.</p>
+<h2>The 30-minute check</h2>
+<p>Three things are worth measuring on a live site: how many filter combinations are mathematically possible (multiply the options), how many parameter URLs Googlebot is actually requesting in your server logs, and how many of your excluded URLs in Search Console&rsquo;s Page indexing report are filtered variants. If the crawl traffic is dominated by filters, the crawl budget is going somewhere no one can buy from &mdash; and your new service or product pages wait in the queue behind it.</p>
+<p>That queue position is one of the things we measure for you: the fixed-price <a href="https://kreslack07.github.io/krk-reviews/shop.html">48-hour AI &amp; SEO bundle on the shop page</a> audits crawl controls, indexation and the pages you want ranking &mdash; for A$49, once.</p>
+    </article>
+    <section class="cta-box">
+      <h2>Want Every One of These Checks Run on Your Site in 48 Hours?</h2>
+      <p>Order the 48-hour AI &amp; SEO website audit for one fixed price of <strong>A$49 AUD</strong> — technical SEO, Core Web Vitals, schema markup, on-page copy with replacement titles and descriptions, and AI-search readiness. Done in 48 hours, no retainer, or take the free checklist first.</p>
+      <a class="btn-primary" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Order the 48-Hour AI &amp; SEO Audit — A$49 AUD</a>
+      <a class="btn-secondary" href="https://kreslack07.github.io/krk-reviews/shop.html">See the Full Price List on shop.html</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 KRK Digital Products (ABN 71 770 320 895) &middot; <a href="index.html">Storefront</a> &middot; <a href="ai-seo-website-audit.html">Website Audit ($49 AUD)</a> &middot; <a href="shop.html">All Packs</a></p>
+  </footer>
+</body>
+</html>
