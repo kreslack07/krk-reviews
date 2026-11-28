@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- krk-analytics -->
+<script async src="/krk-reviews/krk-analytics.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KRK Studio — AI production for small business</title>
+<meta name="description" content="Fixed-price content, listing and SEO production, delivered by an automated studio." />
+<style>
+  :root{
+    --bg:#0b0d10; --card:#14181d; --line:#232a33; --text:#e8edf3; --muted:#96a2b1;
+    --accent:#c8ff4d; --accent-ink:#101408;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{padding:28px 0;border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:-.02em;font-size:18px}
+  .dot{width:10px;height:10px;border-radius:3px;background:var(--accent)}
+  .hero{padding:72px 0 40px}
+  h1{font-size:clamp(32px,5vw,54px);line-height:1.05;letter-spacing:-.03em;margin:0 0 18px;max-width:16ch}
+  .lede{color:var(--muted);font-size:clamp(17px,2vw,20px);max-width:56ch;margin:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;padding:24px 0 8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;
+    display:flex;flex-direction:column;gap:12px}
+  .card h2{font-size:18px;margin:0;letter-spacing:-.01em}
+  .price{font-size:28px;font-weight:700;letter-spacing:-.02em}
+  .price span{font-size:14px;font-weight:500;color:var(--muted)}
+  .card ul{margin:0;padding-left:18px;color:var(--muted);font-size:14.5px}
+  .card li{margin:4px 0}
+  .buy{margin-top:auto;display:inline-flex;justify-content:center;align-items:center;gap:8px;
+    background:var(--accent);color:var(--accent-ink);font-weight:700;text-decoration:none;
+    padding:12px 16px;border-radius:10px;border:1px solid transparent}
+  .buy:hover{filter:brightness(1.06)}
+  .note{color:var(--muted);font-size:13.5px;margin:8px 0 0}
+  section{padding:40px 0}
+  h2.sec{font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 14px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+  .step{border-left:2px solid var(--accent);padding-left:14px}
+  .step b{display:block;margin-bottom:4px}
+  .step p{margin:0;color:var(--muted);font-size:14.5px}
+  footer{border-top:1px solid var(--line);padding:26px 0 48px;color:var(--muted);font-size:13.5px}
+  .row{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between}
+</style>
+  <link rel="canonical" href="https://kreslack07.github.io/krk-reviews/shop.html">
+    <!-- BEGIN generated-hub-jsonld (publish_seo_articles) -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","url":"https://kreslack07.github.io/krk-reviews/shop.html","name":"KRK Studio — every review & guide","isPartOf":{"@type":"WebSite","url":"https://kreslack07.github.io/krk-reviews/"},"mainEntity":{"@type":"ItemList","numberOfItems":107,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://kreslack07.github.io/krk-reviews/","name":"Home page"},{"@type":"ListItem","position":2,"url":"https://kreslack07.github.io/krk-reviews/ai-agent-toolkit.html","name":"ai-agent-toolkit.html"},{"@type":"ListItem","position":3,"url":"https://kreslack07.github.io/krk-reviews/ai-prompt-toolkit.html","name":"ai-prompt-toolkit.html"},{"@type":"ListItem","position":4,"url":"https://kreslack07.github.io/krk-reviews/ai-strategy-template-review.html","name":"ai-strategy-template-review.html"},{"@type":"ListItem","position":5,"url":"https://kreslack07.github.io/krk-reviews/alternatives/ai-agent-toolkit.html","name":"alternatives/ai-agent-toolkit.html"},{"@type":"ListItem","position":6,"url":"https://kreslack07.github.io/krk-reviews/alternatives/ai-prompt-toolkit.html","name":"alternatives/ai-prompt-toolkit.html"},{"@type":"ListItem","position":7,"url":"https://kreslack07.github.io/krk-reviews/alternatives/business-plan-template-pro.html","name":"alternatives/business-plan-template-pro.html"},{"@type":"ListItem","position":8,"url":"https://kreslack07.github.io/krk-reviews/alternatives/copywriting-swipe-file.html","name":"alternatives/copywriting-swipe-file.html"},{"@type":"ListItem","position":9,"url":"https://kreslack07.github.io/krk-reviews/alternatives/email-swipe.html","name":"alternatives/email-swipe.html"},{"@type":"ListItem","position":10,"url":"https://kreslack07.github.io/krk-reviews/alternatives/krk-ai-prompts-marketing.html","name":"alternatives/krk-ai-prompts-marketing.html"},{"@type":"ListItem","position":11,"url":"https://kreslack07.github.io/krk-reviews/alternatives/krk-business-plan-templates.html","name":"alternatives/krk-business-plan-templates.html"},{"@type":"ListItem","position":12,"url":"https://kreslack07.github.io/krk-reviews/alternatives/krk-cold-email-templates.html","name":"alternatives/krk-cold-email-templates.html"},{"@type":"ListItem","position":13,"url":"https://kreslack07.github.io/krk-reviews/alternatives/krk-sop-templates.html","name":"alternatives/krk-sop-templates.html"},{"@type":"ListItem","position":14,"url":"https://kreslack07.github.io/krk-reviews/alternatives/no-code-automation-playbook.html","name":"alternatives/no-code-automation-playbook.html"},{"@type":"ListItem","position":15,"url":"https://kreslack07.github.io/krk-reviews/alternatives/pitch-deck-template-kit.html","name":"alternatives/pitch-deck-template-kit.html"},{"@type":"ListItem","position":16,"url":"https://kreslack07.github.io/krk-reviews/alternatives/seo-content-calendar.html","name":"alternatives/seo-content-calendar.html"},{"@type":"ListItem","position":17,"url":"https://kreslack07.github.io/krk-reviews/automation-audit-checklist.html","name":"automation-audit-checklist.html"},{"@type":"ListItem","position":18,"url":"https://kreslack07.github.io/krk-reviews/best-digital-products-2026.html","name":"best-digital-products-2026.html"},{"@type":"ListItem","position":19,"url":"https://kreslack07.github.io/krk-reviews/business-plan-template-pro.html","name":"business-plan-template-pro.html"},{"@type":"ListItem","position":20,"url":"https://kreslack07.github.io/krk-reviews/copywriting-swipe-file.html","name":"copywriting-swipe-file.html"},{"@type":"ListItem","position":21,"url":"https://kreslack07.github.io/krk-reviews/email-swipe.html","name":"email-swipe.html"},{"@type":"ListItem","position":22,"url":"https://kreslack07.github.io/krk-reviews/free/ai-agent-toolkit.html","name":"free/ai-agent-toolkit.html"},{"@type":"ListItem","position":23,"url":"https://kreslack07.github.io/krk-reviews/free/ai-prompt-toolkit.html","name":"free/ai-prompt-toolkit.html"},{"@type":"ListItem","position":24,"url":"https://kreslack07.github.io/krk-reviews/free/business-plan-template-pro.html","name":"free/business-plan-template-pro.html"},{"@type":"ListItem","position":25,"url":"https://kreslack07.github.io/krk-reviews/free/copywriting-swipe-file.html","name":"free/copywriting-swipe-file.html"},{"@type":"ListItem","position":26,"url":"https://kreslack07.github.io/krk-reviews/free/email-swipe.html","name":"free/email-swipe.html"},{"@type":"ListItem","position":27,"url":"https://kreslack07.github.io/krk-reviews/free/krk-ai-prompts-marketing.html","name":"free/krk-ai-prompts-marketing.html"},{"@type":"ListItem","position":28,"url":"https://kreslack07.github.io/krk-reviews/free/krk-business-plan-templates.html","name":"free/krk-business-plan-templates.html"},{"@type":"ListItem","position":29,"url":"https://kreslack07.github.io/krk-reviews/free/krk-cold-email-templates.html","name":"free/krk-cold-email-templates.html"},{"@type":"ListItem","position":30,"url":"https://kreslack07.github.io/krk-reviews/free/krk-sop-templates.html","name":"free/krk-sop-templates.html"},{"@type":"ListItem","position":31,"url":"https://kreslack07.github.io/krk-reviews/free/no-code-automation-playbook.html","name":"free/no-code-automation-playbook.html"},{"@type":"ListItem","position":32,"url":"https://kreslack07.github.io/krk-reviews/free/pitch-deck-template-kit.html","name":"free/pitch-deck-template-kit.html"},{"@type":"ListItem","position":33,"url":"https://kreslack07.github.io/krk-reviews/free/seo-content-calendar.html","name":"free/seo-content-calendar.html"},{"@type":"ListItem","position":34,"url":"https://kreslack07.github.io/krk-reviews/krk-ai-prompts-marketing.html","name":"krk-ai-prompts-marketing.html"},{"@type":"ListItem","position":35,"url":"https://kreslack07.github.io/krk-reviews/krk-business-plan-templates.html","name":"krk-business-plan-templates.html"},{"@type":"ListItem","position":36,"url":"https://kreslack07.github.io/krk-reviews/krk-cold-email-templates.html","name":"krk-cold-email-templates.html"},{"@type":"ListItem","position":37,"url":"https://kreslack07.github.io/krk-reviews/krk-sop-templates.html","name":"krk-sop-templates.html"},{"@type":"ListItem","position":38,"url":"https://kreslack07.github.io/krk-reviews/landing-page-templates.html","name":"landing-page-templates.html"},{"@type":"ListItem","position":39,"url":"https://kreslack07.github.io/krk-reviews/lead-magnet.html","name":"lead-magnet.html"},{"@type":"ListItem","position":40,"url":"https://kreslack07.github.io/krk-reviews/marketing-templates-bundle.html","name":"marketing-templates-bundle.html"},{"@type":"ListItem","position":41,"url":"https://kreslack07.github.io/krk-reviews/no-code-automation-playbook.html","name":"no-code-automation-playbook.html"},{"@type":"ListItem","position":42,"url":"https://kreslack07.github.io/krk-reviews/notion-templates-freelancers.html","name":"notion-templates-freelancers.html"},{"@type":"ListItem","position":43,"url":"https://kreslack07.github.io/krk-reviews/pitch-deck-template-kit.html","name":"pitch-deck-template-kit.html"},{"@type":"ListItem","position":44,"url":"https://kreslack07.github.io/krk-reviews/saas-boilerplate-review.html","name":"saas-boilerplate-review.html"},{"@type":"ListItem","position":45,"url":"https://kreslack07.github.io/krk-reviews/seo-content-calendar.html","name":"seo-content-calendar.html"},{"@type":"ListItem","position":46,"url":"https://kreslack07.github.io/krk-reviews/bavrw.html","name":"bavrw.html"},{"@type":"ListItem","position":47,"url":"https://kreslack07.github.io/krk-reviews/cggdsg.html","name":"cggdsg.html"},{"@type":"ListItem","position":48,"url":"https://kreslack07.github.io/krk-reviews/gyjef.html","name":"gyjef.html"},{"@type":"ListItem","position":49,"url":"https://kreslack07.github.io/krk-reviews/hldbzhx.html","name":"hldbzhx.html"},{"@type":"ListItem","position":50,"url":"https://kreslack07.github.io/krk-reviews/krk-dark-psychology-flashcards.html","name":"krk-dark-psychology-flashcards.html"},{"@type":"ListItem","position":51,"url":"https://kreslack07.github.io/krk-reviews/krk-zen-garden-coloring-vol1.html","name":"krk-zen-garden-coloring-vol1.html"},{"@type":"ListItem","position":52,"url":"https://kreslack07.github.io/krk-reviews/krk-thumbnail-pack-vol1.html","name":"krk-thumbnail-pack-vol1.html"},{"@type":"ListItem","position":53,"url":"https://kreslack07.github.io/krk-reviews/krk-freelancer-starter-kit-2.html","name":"krk-freelancer-starter-kit-2.html"},{"@type":"ListItem","position":54,"url":"https://kreslack07.github.io/krk-reviews/krk-habit-tracker.html","name":"krk-habit-tracker.html"},{"@type":"ListItem","position":55,"url":"https://kreslack07.github.io/krk-reviews/krk-personal-finance-tracker.html","name":"krk-personal-finance-tracker.html"},{"@type":"ListItem","position":56,"url":"https://kreslack07.github.io/krk-reviews/krk-printable-wall-art-vol1.html","name":"krk-printable-wall-art-vol1.html"},{"@type":"ListItem","position":57,"url":"https://kreslack07.github.io/krk-reviews/krk-social-media-content-calendar.html","name":"krk-social-media-content-calendar.html"},{"@type":"ListItem","position":58,"url":"https://kreslack07.github.io/krk-reviews/krk-student-productivity-system.html","name":"krk-student-productivity-system.html"},{"@type":"ListItem","position":59,"url":"https://kreslack07.github.io/krk-reviews/aavetj.html","name":"aavetj.html"},{"@type":"ListItem","position":60,"url":"https://kreslack07.github.io/krk-reviews/krk-ai-prompt-library.html","name":"krk-ai-prompt-library.html"},{"@type":"ListItem","position":61,"url":"https://kreslack07.github.io/krk-reviews/krk-digital-product-mega-bundle.html","name":"krk-digital-product-mega-bundle.html"},{"@type":"ListItem","position":62,"url":"https://kreslack07.github.io/krk-reviews/krk-marketing-templates-bundle.html","name":"krk-marketing-templates-bundle.html"},{"@type":"ListItem","position":63,"url":"https://kreslack07.github.io/krk-reviews/krk-notion-ultimate-workspace.html","name":"krk-notion-ultimate-workspace.html"},{"@type":"ListItem","position":64,"url":"https://kreslack07.github.io/krk-reviews/mufce.html","name":"mufce.html"},{"@type":"ListItem","position":65,"url":"https://kreslack07.github.io/krk-reviews/niohg.html","name":"niohg.html"},{"@type":"ListItem","position":66,"url":"https://kreslack07.github.io/krk-reviews/ai-seo-website-audit.html","name":"ai-seo-website-audit.html"},{"@type":"ListItem","position":67,"url":"https://kreslack07.github.io/krk-reviews/website-seo-ai-audit-checklist-2026.html","name":"website-seo-ai-audit-checklist-2026.html"},{"@type":"ListItem","position":68,"url":"https://kreslack07.github.io/krk-reviews/what-you-get-48-hour-website-audit.html","name":"what-you-get-48-hour-website-audit.html"},{"@type":"ListItem","position":69,"url":"https://kreslack07.github.io/krk-reviews/why-ai-search-skips-your-small-business-site.html","name":"why-ai-search-skips-your-small-business-site.html"},{"@type":"ListItem","position":70,"url":"https://kreslack07.github.io/krk-reviews/shop.html","name":"shop.html"},{"@type":"ListItem","position":71,"url":"https://kreslack07.github.io/krk-reviews/core-web-vitals-small-business-fix-order.html","name":"core-web-vitals-small-business-fix-order.html"},{"@type":"ListItem","position":72,"url":"https://kreslack07.github.io/krk-reviews/crawl-indexation-check-small-business-website.html","name":"crawl-indexation-check-small-business-website.html"},{"@type":"ListItem","position":73,"url":"https://kreslack07.github.io/krk-reviews/local-business-schema-markup-ai-search.html","name":"local-business-schema-markup-ai-search.html"},{"@type":"ListItem","position":74,"url":"https://kreslack07.github.io/krk-reviews/google-business-profile-local-fixes.html","name":"google-business-profile-local-fixes.html"},{"@type":"ListItem","position":75,"url":"https://kreslack07.github.io/krk-reviews/title-tags-meta-descriptions-google-rewrites.html","name":"title-tags-meta-descriptions-google-rewrites.html"},{"@type":"ListItem","position":76,"url":"https://kreslack07.github.io/krk-reviews/internal-linking-small-business-sites.html","name":"internal-linking-small-business-sites.html"},{"@type":"ListItem","position":77,"url":"https://kreslack07.github.io/krk-reviews/video.html","name":"video.html"},{"@type":"ListItem","position":78,"url":"https://kreslack07.github.io/krk-reviews/canonical-tags-duplicate-urls-small-business.html","name":"canonical-tags-duplicate-urls-small-business.html"},{"@type":"ListItem","position":79,"url":"https://kreslack07.github.io/krk-reviews/image-seo-alt-text-page-weight.html","name":"image-seo-alt-text-page-weight.html"},{"@type":"ListItem","position":80,"url":"https://kreslack07.github.io/krk-reviews/mobile-first-indexing-small-business.html","name":"mobile-first-indexing-small-business.html"},{"@type":"ListItem","position":81,"url":"https://kreslack07.github.io/krk-reviews/people-first-content-eeat-small-business.html","name":"people-first-content-eeat-small-business.html"},{"@type":"ListItem","position":82,"url":"https://kreslack07.github.io/krk-reviews/10-things-google-checks-before-it-shows-your-site.html","name":"10-things-google-checks-before-it-shows-your-site.html"},{"@type":"ListItem","position":83,"url":"https://kreslack07.github.io/krk-reviews/noindex-vs-robots-txt-vs-removal-thin-pages.html","name":"noindex-vs-robots-txt-vs-removal-thin-pages.html"},{"@type":"ListItem","position":84,"url":"https://kreslack07.github.io/krk-reviews/search-console-performance-report-first-10-wins.html","name":"search-console-performance-report-first-10-wins.html"},{"@type":"ListItem","position":85,"url":"https://kreslack07.github.io/krk-reviews/audit-48h-order.html","name":"audit-48h-order.html"},{"@type":"ListItem","position":86,"url":"https://kreslack07.github.io/krk-reviews/privacy.html","name":"privacy.html"},{"@type":"ListItem","position":87,"url":"https://kreslack07.github.io/krk-reviews/terms.html","name":"terms.html"},{"@type":"ListItem","position":88,"url":"https://kreslack07.github.io/krk-reviews/llms-txt-small-business-what-it-does.html","name":"llms-txt-small-business-what-it-does.html"},{"@type":"ListItem","position":89,"url":"https://kreslack07.github.io/krk-reviews/soft-404s-broken-links-crawl-waste.html","name":"soft-404s-broken-links-crawl-waste.html"},{"@type":"ListItem","position":90,"url":"https://kreslack07.github.io/krk-reviews/ai-crawlers-robots-txt-what-to-allow.html","name":"ai-crawlers-robots-txt-what-to-allow.html"},{"@type":"ListItem","position":91,"url":"https://kreslack07.github.io/krk-reviews/keyword-cannibalisation-small-business.html","name":"keyword-cannibalisation-small-business.html"},{"@type":"ListItem","position":92,"url":"https://kreslack07.github.io/krk-reviews/redirect-chains-www-non-www-canonical.html","name":"redirect-chains-www-non-www-canonical.html"},{"@type":"ListItem","position":93,"url":"https://kreslack07.github.io/krk-reviews/structured-data-mistakes-rich-results.html","name":"structured-data-mistakes-rich-results.html"},{"@type":"ListItem","position":94,"url":"https://kreslack07.github.io/krk-reviews/what-does-an-ai-seo-audit-cost-sydney-2026.html","name":"what-does-an-ai-seo-audit-cost-sydney-2026.html"},{"@type":"ListItem","position":95,"url":"https://kreslack07.github.io/krk-reviews/why-wont-google-show-my-website-2026.html","name":"why-wont-google-show-my-website-2026.html"},{"@type":"ListItem","position":96,"url":"https://kreslack07.github.io/krk-reviews/how-do-i-get-my-business-into-ai-answers-2026.html","name":"how-do-i-get-my-business-into-ai-answers-2026.html"},{"@type":"ListItem","position":97,"url":"https://kreslack07.github.io/krk-reviews/how-much-does-seo-cost-small-business-australia-2026.html","name":"how-much-does-seo-cost-small-business-australia-2026.html"},{"@type":"ListItem","position":98,"url":"https://kreslack07.github.io/krk-reviews/services-worldwide.html","name":"services-worldwide.html"},{"@type":"ListItem","position":99,"url":"https://kreslack07.github.io/krk-reviews/sitemap-lastmod-priority-what-google-uses.html","name":"sitemap-lastmod-priority-what-google-uses.html"},{"@type":"ListItem","position":100,"url":"https://kreslack07.github.io/krk-reviews/discovered-vs-crawled-currently-not-indexed.html","name":"discovered-vs-crawled-currently-not-indexed.html"},{"@type":"ListItem","position":101,"url":"https://kreslack07.github.io/krk-reviews/javascript-rendering-google-sees-empty-page.html","name":"javascript-rendering-google-sees-empty-page.html"},{"@type":"ListItem","position":102,"url":"https://kreslack07.github.io/krk-reviews/breadcrumb-markup-small-business-crawl-depth.html","name":"breadcrumb-markup-small-business-crawl-depth.html"},{"@type":"ListItem","position":103,"url":"https://kreslack07.github.io/krk-reviews/care.html","name":"care.html"},{"@type":"ListItem","position":104,"url":"https://kreslack07.github.io/krk-reviews/mixed-content-https-not-secure-fixes.html","name":"mixed-content-https-not-secure-fixes.html"},{"@type":"ListItem","position":105,"url":"https://kreslack07.github.io/krk-reviews/scaled-content-abuse-ai-pages-small-business.html","name":"scaled-content-abuse-ai-pages-small-business.html"},{"@type":"ListItem","position":106,"url":"https://kreslack07.github.io/krk-reviews/audit-19.html","name":"audit-19.html"},{"@type":"ListItem","position":107,"url":"https://kreslack07.github.io/krk-reviews/document-capture.html","name":"document-capture.html"}]}}</script>
+  <!-- END generated-hub-jsonld -->
+</head>
+<body>
+<header><div class="wrap brand"><span class="dot"></span>KRK Studio</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Production work, priced flat, delivered in days.</h1>
+    <p class="lede">Content, marketplace listings and search audits built by an automated studio and checked by a person
+    before delivery. Pay on Stripe, get the work in your inbox. No retainers, no discovery calls.</p>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <h2>AI & SEO Website Audit</h2>
+      <div class="price">A$49 <span>one-off</span></div>
+      <ul>
+        <li>48-hour turnaround</li>
+        <li>Search Console + on-page review</li>
+        <li>Ranked fixes with expected impact</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/9B67sL5ZA8b76M7bgI67S02">Buy — pay on Stripe</a>
+      <a class="buy alt" href="https://kreslack2.gumroad.com/l/znaarn" style="background:var(--card);color:var(--accent);border:1px solid var(--accent)">or pay on Gumroad</a>
+      <p class="note">Delivery within 2 business day(s).</p>
+    </article>
+
+    <article class="card">
+      <h2>AI Wall Art — 5 Print-Ready Masters</h2>
+      <div class="price">A$15 <span>one-off</span></div>
+      <ul>
+        <li>5 high-resolution masters</li>
+        <li>Print-ready files</li>
+        <li>Instant download</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/4gM4gz4VwfDzeezfwY67S03">Buy — pay on Stripe</a>
+
+      <p class="note">Instant download after payment.</p>
+    </article>
+
+    <article class="card">
+      <h2>Podcast Transcription & Show Notes</h2>
+      <div class="price">A$35 <span>one-off</span></div>
+      <ul>
+        <li>Full transcript</li>
+        <li>Show notes + chapters</li>
+        <li>Delivered as Docs</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/9B6bJ1ew62QN7QbgB267S04">Buy — pay on Stripe</a>
+
+      <p class="note">Delivery within 1 business day(s).</p>
+    </article>
+
+    <article class="card">
+      <h2>B2B Lead Database — Starter Pack</h2>
+      <div class="price">A$49 <span>one-off</span></div>
+      <ul>
+        <li>Targeted, verified contacts</li>
+        <li>Firmographic fields</li>
+        <li>Delivered as CSV</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/9B628rds2fDz1rNckM67S05">Buy — pay on Stripe</a>
+
+      <p class="note">Delivery within 1 business day(s).</p>
+    </article>
+
+    <article class="card">
+      <h2>Micro-SaaS Starter Kit</h2>
+      <div class="price">A$29 <span>one-off</span></div>
+      <ul>
+        <li>Custom scoped scaffold</li>
+        <li>Deployed and handed over</li>
+        <li>Source included</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/cNi6oHew60IF9Yj84w67S06">Buy — pay on Stripe</a>
+
+      <p class="note">Delivery within 1 business day(s).</p>
+    </article>
+
+    <article class="card">
+      <h2>Gmail Starred Saver — n8n Workflow</h2>
+      <div class="price">A$19 <span>one-off</span></div>
+      <ul>
+        <li>Import-ready n8n workflow</li>
+        <li>Setup notes included</li>
+        <li>Instant download</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/eVqaEXbjUezv0nJckM67S07">Buy — pay on Stripe</a>
+
+      <p class="note">Instant download after payment.</p>
+    </article>
+
+    <article class="card">
+      <h2>Stripe → Slack Alerts — n8n Workflow</h2>
+      <div class="price">A$15 <span>one-off</span></div>
+      <ul>
+        <li>Import-ready n8n workflow</li>
+        <li>Setup notes included</li>
+        <li>Instant download</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/6oU7sL2No4YVfiD5Wo67S08">Buy — pay on Stripe</a>
+
+      <p class="note">Instant download after payment.</p>
+    </article>
+
+    <article class="card">
+      <h2>KRK 10-Point Quick SEO Check</h2>
+      <div class="price">A$19 <span>one-off</span></div>
+      <ul>
+        <li>Fixed-price deliverable</li>
+      </ul>
+      <a class="buy" href="https://buy.stripe.com/4gM3cv4Vw7739YjgB267S0f">Buy — pay on Stripe</a>
+
+      <p class="note">Delivery within 1 business day(s).</p>
+    </article>
+  </div>
+
+  <section>
+    <h2 class="sec">How it works</h2>
+    <div class="steps">
+      <div class="step"><b>1. Pick a pack</b><p>One price, paid on Stripe's checkout page. No subscription.</p></div>
+      <div class="step"><b>2. Send your brief</b><p>A short form follows your receipt: your product, your audience, your tone.</p></div>
+      <div class="step"><b>3. Get the files</b><p>Work arrives by email, in editable formats you can reuse.</p></div>
+    </div>
+  </section>
+
+  <section id="terms">
+    <h2 class="sec">Plain terms</h2>
+    <p class="note">Prices in AUD, GST included where applicable. Payments are processed by Stripe; card details never touch this site.
+    If a pack does not match the brief, one revision is included. Refunds are handled case by case within 7 days of delivery —
+    email the address on your receipt.</p>
+  </section>
+  <section id="trust">
+    <h2 class="sec">Who is KRK</h2>
+    <p class="note">KRK Digital Templates — Australian sole trader, <strong>ABN 71 770 320 895</strong>, Caringbah NSW.
+    Fixed-price digital products and site audits, delivered by an automated studio and checked by a person.
+    Every order is paid on Stripe's own checkout (card details never touch this site), receipts come from
+    kreslack07@gmail.com, and <strong>if a deliverable is not useful, one refund or one revision is included —
+    email the address on your receipt within 7 days.</strong></p>
+    <p class="note">Sample deliverable (free): <a href="https://kreslack07.github.io/krk-reviews/lead-magnets/automation-audit-checklist.pdf">Automation &amp; Website Audit Checklist (PDF)</a></p>
+    <p class="note">See a real sample audit report we ran on our own site (PDF): <a href="https://kreslack07.github.io/krk-reviews/lead-magnets/sample-audit-krk-shop-2026-11-22.pdf">sample-audit-krk-shop-2026-11-22.pdf</a>
+    &middot; <a href="audit-48h-order.html">Order the 48-hour audit on its own page</a>
+    &middot; Free sample by email (Gumroad, price 0): <a href="https://kreslack2.gumroad.com/l/lezzpq">kreslack2.gumroad.com/l/lezzpq</a>
+    &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+  </section>
+  <section id="video">
+    <h2 class="sec">Video</h2>
+    <p class="note">Short studio explainers — the A$49 48-hour audit pitch, the A$19 quick SEO check, and current marketplace drops.</p>
+    <p><a class="buy" href="video.html" style="max-width:240px">Watch the videos &rarr;</a></p>
+    <video controls preload="metadata" width="420" style="max-width:100%;border-radius:12px;margin-top:12px" poster="assets/video/audit_pitch_thumb.jpg"><source src="assets/video/audit_pitch_wide.mp4" type="video/mp4"></video>
+  </section>
+  <!-- BEGIN generated-site-index (publish_seo_articles) -->
+  <section id="site-index">
+    <h2 class="sec">Every review &amp; guide on this site</h2>
+    <p class="note">The full index of published pages, generated from the sitemap. Each one is a hands-on review or a search-visibility guide written for small businesses.</p>
+    <ul style="columns:2;column-gap:32px;font-size:14px;line-height:1.9;color:var(--muted)">
+      <li><a href="index.html">Home page</a></li>
+      <li><a href="ai-agent-toolkit.html">ai-agent-toolkit.html</a></li>
+      <li><a href="ai-prompt-toolkit.html">ai-prompt-toolkit.html</a></li>
+      <li><a href="ai-strategy-template-review.html">ai-strategy-template-review.html</a></li>
+      <li><a href="alternatives/ai-agent-toolkit.html">alternatives/ai-agent-toolkit.html</a></li>
+      <li><a href="alternatives/ai-prompt-toolkit.html">alternatives/ai-prompt-toolkit.html</a></li>
+      <li><a href="alternatives/business-plan-template-pro.html">alternatives/business-plan-template-pro.html</a></li>
+      <li><a href="alternatives/copywriting-swipe-file.html">alternatives/copywriting-swipe-file.html</a></li>
+      <li><a href="alternatives/email-swipe.html">alternatives/email-swipe.html</a></li>
+      <li><a href="alternatives/krk-ai-prompts-marketing.html">alternatives/krk-ai-prompts-marketing.html</a></li>
+      <li><a href="alternatives/krk-business-plan-templates.html">alternatives/krk-business-plan-templates.html</a></li>
+      <li><a href="alternatives/krk-cold-email-templates.html">alternatives/krk-cold-email-templates.html</a></li>
+      <li><a href="alternatives/krk-sop-templates.html">alternatives/krk-sop-templates.html</a></li>
+      <li><a href="alternatives/no-code-automation-playbook.html">alternatives/no-code-automation-playbook.html</a></li>
+      <li><a href="alternatives/pitch-deck-template-kit.html">alternatives/pitch-deck-template-kit.html</a></li>
+      <li><a href="alternatives/seo-content-calendar.html">alternatives/seo-content-calendar.html</a></li>
+      <li><a href="automation-audit-checklist.html">automation-audit-checklist.html</a></li>
+      <li><a href="best-digital-products-2026.html">best-digital-products-2026.html</a></li>
+      <li><a href="business-plan-template-pro.html">business-plan-template-pro.html</a></li>
+      <li><a href="copywriting-swipe-file.html">copywriting-swipe-file.html</a></li>
+      <li><a href="email-swipe.html">email-swipe.html</a></li>
+      <li><a href="free/ai-agent-toolkit.html">free/ai-agent-toolkit.html</a></li>
+      <li><a href="free/ai-prompt-toolkit.html">free/ai-prompt-toolkit.html</a></li>
+      <li><a href="free/business-plan-template-pro.html">free/business-plan-template-pro.html</a></li>
+      <li><a href="free/copywriting-swipe-file.html">free/copywriting-swipe-file.html</a></li>
+      <li><a href="free/email-swipe.html">free/email-swipe.html</a></li>
+      <li><a href="free/krk-ai-prompts-marketing.html">free/krk-ai-prompts-marketing.html</a></li>
+      <li><a href="free/krk-business-plan-templates.html">free/krk-business-plan-templates.html</a></li>
+      <li><a href="free/krk-cold-email-templates.html">free/krk-cold-email-templates.html</a></li>
+      <li><a href="free/krk-sop-templates.html">free/krk-sop-templates.html</a></li>
+      <li><a href="free/no-code-automation-playbook.html">free/no-code-automation-playbook.html</a></li>
+      <li><a href="free/pitch-deck-template-kit.html">free/pitch-deck-template-kit.html</a></li>
+      <li><a href="free/seo-content-calendar.html">free/seo-content-calendar.html</a></li>
+      <li><a href="krk-ai-prompts-marketing.html">krk-ai-prompts-marketing.html</a></li>
+      <li><a href="krk-business-plan-templates.html">krk-business-plan-templates.html</a></li>
+      <li><a href="krk-cold-email-templates.html">krk-cold-email-templates.html</a></li>
+      <li><a href="krk-sop-templates.html">krk-sop-templates.html</a></li>
+      <li><a href="landing-page-templates.html">landing-page-templates.html</a></li>
+      <li><a href="lead-magnet.html">lead-magnet.html</a></li>
+      <li><a href="marketing-templates-bundle.html">marketing-templates-bundle.html</a></li>
+      <li><a href="no-code-automation-playbook.html">no-code-automation-playbook.html</a></li>
+      <li><a href="notion-templates-freelancers.html">notion-templates-freelancers.html</a></li>
+      <li><a href="pitch-deck-template-kit.html">pitch-deck-template-kit.html</a></li>
+      <li><a href="saas-boilerplate-review.html">saas-boilerplate-review.html</a></li>
+      <li><a href="seo-content-calendar.html">seo-content-calendar.html</a></li>
+      <li><a href="bavrw.html">bavrw.html</a></li>
+      <li><a href="cggdsg.html">cggdsg.html</a></li>
+      <li><a href="gyjef.html">gyjef.html</a></li>
+      <li><a href="hldbzhx.html">hldbzhx.html</a></li>
+      <li><a href="krk-dark-psychology-flashcards.html">krk-dark-psychology-flashcards.html</a></li>
+      <li><a href="krk-zen-garden-coloring-vol1.html">krk-zen-garden-coloring-vol1.html</a></li>
+      <li><a href="krk-thumbnail-pack-vol1.html">krk-thumbnail-pack-vol1.html</a></li>
+      <li><a href="krk-freelancer-starter-kit-2.html">krk-freelancer-starter-kit-2.html</a></li>
+      <li><a href="krk-habit-tracker.html">krk-habit-tracker.html</a></li>
+      <li><a href="krk-personal-finance-tracker.html">krk-personal-finance-tracker.html</a></li>
+      <li><a href="krk-printable-wall-art-vol1.html">krk-printable-wall-art-vol1.html</a></li>
+      <li><a href="krk-social-media-content-calendar.html">krk-social-media-content-calendar.html</a></li>
+      <li><a href="krk-student-productivity-system.html">krk-student-productivity-system.html</a></li>
+      <li><a href="aavetj.html">aavetj.html</a></li>
+      <li><a href="krk-ai-prompt-library.html">krk-ai-prompt-library.html</a></li>
+      <li><a href="krk-digital-product-mega-bundle.html">krk-digital-product-mega-bundle.html</a></li>
+      <li><a href="krk-marketing-templates-bundle.html">krk-marketing-templates-bundle.html</a></li>
+      <li><a href="krk-notion-ultimate-workspace.html">krk-notion-ultimate-workspace.html</a></li>
+      <li><a href="mufce.html">mufce.html</a></li>
+      <li><a href="niohg.html">niohg.html</a></li>
+      <li><a href="ai-seo-website-audit.html">ai-seo-website-audit.html</a></li>
+      <li><a href="website-seo-ai-audit-checklist-2026.html">website-seo-ai-audit-checklist-2026.html</a></li>
+      <li><a href="what-you-get-48-hour-website-audit.html">what-you-get-48-hour-website-audit.html</a></li>
+      <li><a href="why-ai-search-skips-your-small-business-site.html">why-ai-search-skips-your-small-business-site.html</a></li>
+      <li><a href="core-web-vitals-small-business-fix-order.html">core-web-vitals-small-business-fix-order.html</a></li>
+      <li><a href="crawl-indexation-check-small-business-website.html">crawl-indexation-check-small-business-website.html</a></li>
+      <li><a href="local-business-schema-markup-ai-search.html">local-business-schema-markup-ai-search.html</a></li>
+      <li><a href="google-business-profile-local-fixes.html">google-business-profile-local-fixes.html</a></li>
+      <li><a href="title-tags-meta-descriptions-google-rewrites.html">title-tags-meta-descriptions-google-rewrites.html</a></li>
+      <li><a href="internal-linking-small-business-sites.html">internal-linking-small-business-sites.html</a></li>
+      <li><a href="video.html">video.html</a></li>
+      <li><a href="canonical-tags-duplicate-urls-small-business.html">canonical-tags-duplicate-urls-small-business.html</a></li>
+      <li><a href="image-seo-alt-text-page-weight.html">image-seo-alt-text-page-weight.html</a></li>
+      <li><a href="mobile-first-indexing-small-business.html">mobile-first-indexing-small-business.html</a></li>
+      <li><a href="people-first-content-eeat-small-business.html">people-first-content-eeat-small-business.html</a></li>
+      <li><a href="10-things-google-checks-before-it-shows-your-site.html">10-things-google-checks-before-it-shows-your-site.html</a></li>
+      <li><a href="noindex-vs-robots-txt-vs-removal-thin-pages.html">noindex-vs-robots-txt-vs-removal-thin-pages.html</a></li>
+      <li><a href="search-console-performance-report-first-10-wins.html">search-console-performance-report-first-10-wins.html</a></li>
+      <li><a href="audit-48h-order.html">audit-48h-order.html</a></li>
+      <li><a href="privacy.html">privacy.html</a></li>
+      <li><a href="terms.html">terms.html</a></li>
+      <li><a href="llms-txt-small-business-what-it-does.html">llms-txt-small-business-what-it-does.html</a></li>
+      <li><a href="soft-404s-broken-links-crawl-waste.html">soft-404s-broken-links-crawl-waste.html</a></li>
+      <li><a href="ai-crawlers-robots-txt-what-to-allow.html">ai-crawlers-robots-txt-what-to-allow.html</a></li>
+      <li><a href="keyword-cannibalisation-small-business.html">keyword-cannibalisation-small-business.html</a></li>
+      <li><a href="redirect-chains-www-non-www-canonical.html">redirect-chains-www-non-www-canonical.html</a></li>
+      <li><a href="structured-data-mistakes-rich-results.html">structured-data-mistakes-rich-results.html</a></li>
+      <li><a href="what-does-an-ai-seo-audit-cost-sydney-2026.html">what-does-an-ai-seo-audit-cost-sydney-2026.html</a></li>
+      <li><a href="why-wont-google-show-my-website-2026.html">why-wont-google-show-my-website-2026.html</a></li>
+      <li><a href="how-do-i-get-my-business-into-ai-answers-2026.html">how-do-i-get-my-business-into-ai-answers-2026.html</a></li>
+      <li><a href="how-much-does-seo-cost-small-business-australia-2026.html">how-much-does-seo-cost-small-business-australia-2026.html</a></li>
+      <li><a href="services-worldwide.html">services-worldwide.html</a></li>
+      <li><a href="sitemap-lastmod-priority-what-google-uses.html">sitemap-lastmod-priority-what-google-uses.html</a></li>
+      <li><a href="discovered-vs-crawled-currently-not-indexed.html">discovered-vs-crawled-currently-not-indexed.html</a></li>
+      <li><a href="javascript-rendering-google-sees-empty-page.html">javascript-rendering-google-sees-empty-page.html</a></li>
+      <li><a href="breadcrumb-markup-small-business-crawl-depth.html">breadcrumb-markup-small-business-crawl-depth.html</a></li>
+      <li><a href="care.html">care.html</a></li>
+      <li><a href="mixed-content-https-not-secure-fixes.html">mixed-content-https-not-secure-fixes.html</a></li>
+      <li><a href="scaled-content-abuse-ai-pages-small-business.html">scaled-content-abuse-ai-pages-small-business.html</a></li>
+      <li><a href="audit-19.html">audit-19.html</a></li>
+      <li><a href="document-capture.html">document-capture.html</a></li>
+    </ul>
+    <p class="note">Not sure which applies to your site? Start with the <a href="https://kreslack07.github.io/krk-reviews/ai-seo-website-audit.html">48-hour AI &amp; SEO website audit (A$49)</a>.</p>
+  </section>
+  <!-- END generated-site-index -->
+</main>
+
+<footer>
+  <div class="wrap row">
+    <span>KRK Studio · KRK Digital Templates · ABN 71 770 320 895 · Caringbah NSW, Australia</span>
+    <span>Payments by Stripe</span>
+    <span><a href="services-worldwide.html">Worldwide ordering — pay in USD / GBP / EUR</a></span>
+  </div>
+</footer>
+</body>
+</html>
